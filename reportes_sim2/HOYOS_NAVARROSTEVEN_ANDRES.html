@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Resultado Sim 2 – HOYOS NAVARRO</title>
+  <style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;background:#f0f4ff;min-height:100vh}
+.container{max-width:1100px;margin:0 auto;padding:20px}
+.header{background:linear-gradient(135deg,#0D47A1 0%,#1565C0 50%,#1976D2 100%);
+  color:white;padding:40px;border-radius:20px;margin-bottom:30px;
+  box-shadow:0 10px 40px rgba(21,101,192,0.4);text-align:center}
+.header h1{font-size:2.2em;font-weight:800;margin-bottom:8px}
+.header .subtitle{font-size:1.1em;opacity:.9;margin-bottom:4px}
+.header .fecha{font-size:.95em;opacity:.7}
+.card{background:white;border-radius:16px;padding:28px;margin-bottom:24px;
+  box-shadow:0 4px 20px rgba(0,0,0,.08)}
+.card-title{font-size:1.3em;font-weight:700;color:#0D47A1;margin-bottom:20px;
+  padding-bottom:12px;border-bottom:3px solid #E3F2FD;display:flex;align-items:center;gap:10px}
+.stat-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:16px;margin-bottom:20px}
+.stat-box{background:#E3F2FD;border-radius:12px;padding:18px;text-align:center}
+.stat-box .label{font-size:.78em;color:#555;text-transform:uppercase;letter-spacing:.5px;margin-bottom:6px}
+.stat-box .value{font-size:2em;font-weight:800;color:#0D47A1}
+table{width:100%;border-collapse:collapse;font-size:.9em}
+th{background:#0D47A1;color:white;padding:12px 10px;text-align:left}
+td{padding:10px;border-bottom:1px solid #E3F2FD}
+tr:hover td{background:#F8FBFF}
+.badge{display:inline-block;padding:4px 12px;border-radius:20px;font-size:.8em;font-weight:700;color:white}
+.tag{display:inline-block;padding:3px 10px;border-radius:12px;font-size:.78em;
+  margin:3px;background:#E3F2FD;color:#0D47A1;border:1px solid #BBDEFB}
+.tag.weak{background:#FFEBEE;color:#C62828;border-color:#FFCDD2}
+.insight-box{background:linear-gradient(135deg,#E8F5E9,#F1F8E9);border-left:5px solid #2E7D32;
+  border-radius:0 12px 12px 0;padding:16px 20px;margin:12px 0}
+.warning-box{background:linear-gradient(135deg,#FFEBEE,#FFF8E1);border-left:5px solid #E65100;
+  border-radius:0 12px 12px 0;padding:16px 20px;margin:12px 0}
+.info-box{background:linear-gradient(135deg,#E3F2FD,#EDE7F6);border-left:5px solid #1565C0;
+  border-radius:0 12px 12px 0;padding:16px 20px;margin:12px 0}
+.icfes-total{background:linear-gradient(135deg,#0D47A1,#1565C0);color:white;
+  border-radius:20px;padding:24px 32px;text-align:center;margin-bottom:20px}
+.icfes-total .score{font-size:4em;font-weight:900;line-height:1}
+.icfes-total .label{font-size:.9em;opacity:.85;margin-top:6px;text-transform:uppercase;letter-spacing:1px}
+.icfes-total .sub{font-size:.8em;opacity:.7;margin-top:4px}
+
+  .student-header{background:linear-gradient(135deg,#0D47A1,#283593);color:white;
+    border-radius:16px;padding:28px;margin-bottom:24px;box-shadow:0 8px 30px rgba(13,71,161,.4)}
+  .student-header h2{font-size:1.8em;margin-bottom:14px}
+  .info-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:14px}
+  .info-item{text-align:center;background:rgba(255,255,255,.15);border-radius:10px;padding:14px}
+  .info-label{font-size:.75em;opacity:.85;margin-bottom:4px;text-transform:uppercase}
+  .info-value{font-size:1.9em;font-weight:800}
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="header">
+    <h1>Concentración Educativa del Sur de Montelibano</h1>
+    <div class="subtitle">CESUM – Grado 11°</div>
+    <div class="fecha">Segundo Simulacro PEFA 2026 · Marzo 2026</div>
+  </div>
+
+  <div class="student-header">
+    <h2>👤 STEVEN ANDRES HOYOS NAVARRO</h2>
+    <div class="info-grid">
+      <div class="info-item">
+        <div class="info-label">ID / Grado</div>
+        <div class="info-value" style="font-size:1.2em">116009</div>
+      </div>
+      <div class="info-item">
+        <div class="info-label">Posición General</div>
+        <div class="info-value">#4</div>
+      </div>
+      <div class="info-item">
+        <div class="info-label">Grupo General</div>
+        <div class="info-value" style="color:#1565C0;font-size:2.4em">1</div>
+        <div style="font-size:.78em;opacity:.85">Elite</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- PUNTAJE ICFES -->
+  <div class="icfes-total" style="background:linear-gradient(135deg,#2E7D32,#2E7D32cc)">
+    <div class="label">Puntaje ICFES Simulado</div>
+    <div class="score">362</div>
+    <div class="sub">de 500 puntos posibles · 72.3% del máximo</div>
+    <div style="background:rgba(255,255,255,.2);border-radius:12px;height:16px;margin-top:14px;overflow:hidden">
+      <div style="width:72.3%;height:100%;background:white;border-radius:12px;opacity:.9"></div>
+    </div>
+    <div style="display:flex;justify-content:space-between;font-size:.75em;opacity:.7;margin-top:4px">
+      <span>0</span><span>100</span><span>200</span><span>300</span><span>400</span><span>500</span>
+    </div>
+  </div>
+
+  
+
+  <!-- ÁREAS ICFES -->
+  <div class="card">
+    <div class="card-title">📊 Puntaje por Área ICFES (0-100 cada área)</div>
+    <div style="overflow-x:auto">
+      <table>
+        <thead><tr><th>Área ICFES</th><th>Puntaje</th><th>Desempeño</th><th>Grupo</th><th>Promedio grupo</th></tr></thead>
+        <tbody>
+        <tr>
+          <td><b>📐 Matemáticas</b></td>
+          <td style="font-weight:700;font-size:1.1em;color:#1565C0">35.0</td>
+          <td>
+            <div style="display:flex;align-items:center;gap:8px">
+              <div style="flex:1;background:#E3F2FD;border-radius:10px;height:12px;overflow:hidden">
+                <div style="width:35.0%;height:100%;background:#C62828;border-radius:10px"></div>
+              </div>
+              <span style="font-weight:700;color:#C62828;min-width:38px">35%</span>
+            </div>
+          </td>
+          <td><span class="badge" style="background:#E65100">Grupo 4 – Intermedio</span></td>
+          <td style="color:#777;font-size:.85em">Prom: 38.7</td>
+        </tr>
+        <tr>
+          <td><b>📚 Lectura Crítica</b></td>
+          <td style="font-weight:700;font-size:1.1em;color:#6A1B9A">95.0</td>
+          <td>
+            <div style="display:flex;align-items:center;gap:8px">
+              <div style="flex:1;background:#E3F2FD;border-radius:10px;height:12px;overflow:hidden">
+                <div style="width:95.0%;height:100%;background:#1565C0;border-radius:10px"></div>
+              </div>
+              <span style="font-weight:700;color:#1565C0;min-width:38px">95%</span>
+            </div>
+          </td>
+          <td><span class="badge" style="background:#1565C0">Grupo 1 – Elite</span></td>
+          <td style="color:#777;font-size:.85em">Prom: 62.4</td>
+        </tr>
+        <tr>
+          <td><b>🔬 Ciencias Naturales</b></td>
+          <td style="font-weight:700;font-size:1.1em;color:#2E7D32">77.4</td>
+          <td>
+            <div style="display:flex;align-items:center;gap:8px">
+              <div style="flex:1;background:#E3F2FD;border-radius:10px;height:12px;overflow:hidden">
+                <div style="width:77.4%;height:100%;background:#1565C0;border-radius:10px"></div>
+              </div>
+              <span style="font-weight:700;color:#1565C0;min-width:38px">77%</span>
+            </div>
+          </td>
+          <td><span class="badge" style="background:#1565C0">Grupo 1 – Elite</span></td>
+          <td style="color:#777;font-size:.85em">Prom: 41.6</td>
+        </tr>
+        <tr>
+          <td><b>🌍 Inglés</b></td>
+          <td style="font-weight:700;font-size:1.1em;color:#00695C">59.1</td>
+          <td>
+            <div style="display:flex;align-items:center;gap:8px">
+              <div style="flex:1;background:#E3F2FD;border-radius:10px;height:12px;overflow:hidden">
+                <div style="width:59.1%;height:100%;background:#E65100;border-radius:10px"></div>
+              </div>
+              <span style="font-weight:700;color:#E65100;min-width:38px">59%</span>
+            </div>
+          </td>
+          <td><span class="badge" style="background:#2E7D32">Grupo 2 – Avanzado</span></td>
+          <td style="color:#777;font-size:.85em">Prom: 46.4</td>
+        </tr>
+        <tr>
+          <td><b>🌎 Sociales</b></td>
+          <td style="font-weight:700;font-size:1.1em;color:#B71C1C">95.0</td>
+          <td>
+            <div style="display:flex;align-items:center;gap:8px">
+              <div style="flex:1;background:#E3F2FD;border-radius:10px;height:12px;overflow:hidden">
+                <div style="width:95.0%;height:100%;background:#1565C0;border-radius:10px"></div>
+              </div>
+              <span style="font-weight:700;color:#1565C0;min-width:38px">95%</span>
+            </div>
+          </td>
+          <td><span class="badge" style="background:#1565C0">Grupo 1 – Elite</span></td>
+          <td style="color:#777;font-size:.85em">Prom: 68.2</td>
+        </tr></tbody>
+        <tfoot><tr style="background:#E3F2FD">
+          <td colspan="1"><b>TOTAL ICFES</b></td>
+          <td colspan="1"><b style="font-size:1.2em;color:#0D47A1">362 / 500</b></td>
+          <td colspan="3"></td>
+        </tr></tfoot>
+      </table>
+    </div>
+  </div>
+
+  <!-- POSICIÓN POR ÁREA -->
+  <div class="card">
+    <div class="card-title">🎯 Grupo por Área (1 = Mejor desempeño)</div>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(175px,1fr));gap:14px">
+      
+        <div style="background:#f8fbff;border-radius:12px;padding:16px;border:2px solid #E3F2FD;text-align:center">
+          <div style="font-size:.82em;color:#555;margin-bottom:4px">📐 Matemáticas</div>
+          <div style="font-size:1.5em;font-weight:900;color:#E65100">Grupo 4</div>
+          <div style="font-size:1.2em;font-weight:700;color:#0D47A1">35.0 pts</div>
+          <div style="font-size:.8em;color:#C62828;font-weight:600">▼ 3.7 vs prom</div>
+        </div>
+        <div style="background:#f8fbff;border-radius:12px;padding:16px;border:2px solid #E3F2FD;text-align:center">
+          <div style="font-size:.82em;color:#555;margin-bottom:4px">📚 Lectura Crítica</div>
+          <div style="font-size:1.5em;font-weight:900;color:#1565C0">Grupo 1</div>
+          <div style="font-size:1.2em;font-weight:700;color:#0D47A1">95.0 pts</div>
+          <div style="font-size:.8em;color:#2E7D32;font-weight:600">▲ 32.6 vs prom</div>
+        </div>
+        <div style="background:#f8fbff;border-radius:12px;padding:16px;border:2px solid #E3F2FD;text-align:center">
+          <div style="font-size:.82em;color:#555;margin-bottom:4px">🔬 Ciencias Naturales</div>
+          <div style="font-size:1.5em;font-weight:900;color:#1565C0">Grupo 1</div>
+          <div style="font-size:1.2em;font-weight:700;color:#0D47A1">77.4 pts</div>
+          <div style="font-size:.8em;color:#2E7D32;font-weight:600">▲ 35.8 vs prom</div>
+        </div>
+        <div style="background:#f8fbff;border-radius:12px;padding:16px;border:2px solid #E3F2FD;text-align:center">
+          <div style="font-size:.82em;color:#555;margin-bottom:4px">🌍 Inglés</div>
+          <div style="font-size:1.5em;font-weight:900;color:#2E7D32">Grupo 2</div>
+          <div style="font-size:1.2em;font-weight:700;color:#0D47A1">59.1 pts</div>
+          <div style="font-size:.8em;color:#2E7D32;font-weight:600">▲ 12.7 vs prom</div>
+        </div>
+        <div style="background:#f8fbff;border-radius:12px;padding:16px;border:2px solid #E3F2FD;text-align:center">
+          <div style="font-size:.82em;color:#555;margin-bottom:4px">🌎 Sociales</div>
+          <div style="font-size:1.5em;font-weight:900;color:#1565C0">Grupo 1</div>
+          <div style="font-size:1.2em;font-weight:700;color:#0D47A1">95.0 pts</div>
+          <div style="font-size:.8em;color:#2E7D32;font-weight:600">▲ 26.8 vs prom</div>
+        </div>
+    </div>
+  </div>
+
+  <!-- DETALLE QUÍMICA / FÍSICA -->
+  <div class="card">
+    <div class="card-title">🔬 Detalle Ciencias Naturales (Química + Física)</div>
+    <div style="overflow-x:auto">
+      <table>
+        <thead><tr><th>Componente</th><th>Correctas</th><th>Porcentaje</th></tr></thead>
+        <tbody>
+          
+          <tr>
+          <td>⚗️ Química</td>
+          <td>18/21</td>
+          <td>
+            <div style="display:flex;align-items:center;gap:8px">
+              <div style="flex:1;background:#E3F2FD;border-radius:8px;height:10px;overflow:hidden">
+                <div style="width:85.7%;height:100%;background:#1565C0;border-radius:8px"></div>
+              </div>
+              <span style="font-weight:600;color:#1565C0;min-width:38px">85.7%</span>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>⚡ Física</td>
+          <td>6/10</td>
+          <td>
+            <div style="display:flex;align-items:center;gap:8px">
+              <div style="flex:1;background:#E3F2FD;border-radius:8px;height:10px;overflow:hidden">
+                <div style="width:60.0%;height:100%;background:#1565C0;border-radius:8px"></div>
+              </div>
+              <span style="font-weight:600;color:#1565C0;min-width:38px">60.0%</span>
+            </div>
+          </td>
+        </tr>
+        
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- TEMAS -->
+  <div class="card">
+    <div class="card-title">✅ Temas con Buen Desempeño</div>
+    <div style='margin-bottom:10px'><b style='color:#1565C0'>📐 Matemáticas:</b> <span class='tag'>Sistema de ecuaciones lineales</span> <span class='tag'>Pendiente e interpretación</span> <span class='tag'>Rectas paralelas y transversal</span> <span class='tag'>Pitágoras y perímetro</span></div><div style='margin-bottom:10px'><b style='color:#00695C'>🌍 Inglés:</b> <span class='tag'>Vocabulario (definición: vaccination)</span> <span class='tag'>Vocabulario (oficios: apprentice)</span> <span class='tag'>Público objetivo de anuncio</span> <span class='tag'>Función comunicativa (norma/prohibición)</span></div><div style='margin-bottom:10px'><b style='color:#6A1B9A'>📚 Lectura Crítica:</b> <span class='tag'>Sísifo como analogía de la existencia humana</span> <span class='tag'>Rebeldía en Camus (conciencia sin esperanza)</span> <span class='tag'>El mito como ilustración de la condición humana</span> <span class='tag'>Rechazo al suicidio y aceptación del absurdo</span></div><div style='margin-bottom:10px'><b style='color:#E65100'>⚗️ Química:</b> <span class='tag'>Homeostasis y termorregulación</span> <span class='tag'>Diabetes tipo 1 e insulina</span> <span class='tag'>Genética mendeliana (cruce Aa x Aa)</span> <span class='tag'>Daltonismo ligado al cromosoma X</span></div><div style='margin-bottom:10px'><b style='color:#1B5E20'>⚡ Física:</b> <span class='tag'>Soluciones CTS frente al cambio climático</span> <span class='tag'>Circuito en serie</span> <span class='tag'>Diferencia entre CC y CA</span> <span class='tag'>Ley de Ohm (gráfica V–I)</span></div><div style='margin-bottom:10px'><b style='color:#B71C1C'>🌎 Sociales:</b> <span class='tag'>Separación de poderes</span> <span class='tag'>Control de constitucionalidad</span> <span class='tag'>Efecto de inexequibilidad</span> <span class='tag'>Referendo de iniciativa popular</span></div>
+  </div>
+  <div class="card">
+    <div class="card-title">⚠️ Temas a Reforzar</div>
+    <div style='margin-bottom:10px'><b style='color:#C62828'>📐 Matemáticas:</b> <span class='tag weak'>Función lineal (consumo)</span> <span class='tag weak'>Tasas de trabajo conjunto</span> <span class='tag weak'>Razón de cambio en temperatura</span> <span class='tag weak'>Triángulo rectángulo (5-12-13)</span></div><div style='margin-bottom:10px'><b style='color:#C62828'>🌍 Inglés:</b> <span class='tag weak'>Vocabulario (medio ambiente: sustainable)</span> <span class='tag weak'>Propósito comunicativo de aviso</span> <span class='tag weak'>Presente simple (3.ª persona singular)</span> <span class='tag weak'>Like + verb-ing</span></div><div style='margin-bottom:10px'><b style='color:#C62828'>📚 Lectura Crítica:</b> <span class='tag weak'>Distinción medios/fines (tesis de felicidad)</span></div><div style='margin-bottom:10px'><b style='color:#C62828'>⚗️ Química:</b> <span class='tag weak'>ADH y equilibrio hídrico</span> <span class='tag weak'>Trisomía 21 (no disyunción meiótica)</span> <span class='tag weak'>Ácidos y bases (Arrhenius/Brønsted)</span></div><div style='margin-bottom:10px'><b style='color:#C62828'>⚡ Física:</b> <span class='tag weak'>Circuito en paralelo</span> <span class='tag weak'>Aplicación de CC y CA según equipo</span> <span class='tag weak'>Resistividad y longitud del conductor</span> <span class='tag weak'>Inducción electromagnética (Faraday)</span></div><div style='margin-bottom:10px'><b style='color:#C62828'>🌎 Sociales:</b> <span class='tag weak'>Procedencia de la tutela</span></div>
+  </div>
+
+  <!-- SUGERENCIAS -->
+  <div class="card">
+    <div class="card-title">💡 Sugerencias Personalizadas</div>
+    <ul style="list-style:none;line-height:2.2">
+      <li>🔴 <b>Matemáticas</b> (35/100): Refuerzo urgente. Trabaja los temas básicos diariamente.</li><li>🟢 <b>Lectura Crítica</b> (95/100): Excelente. Mantén el ritmo y apoya a tus compañeros.</li><li>🟢 <b>Ciencias Naturales</b> (77/100): Excelente. Mantén el ritmo y apoya a tus compañeros.</li><li>🟢 <b>Sociales</b> (95/100): Excelente. Mantén el ritmo y apoya a tus compañeros.</li>
+    </ul>
+  </div>
+
+  <div style="text-align:center;color:#999;font-size:.82em;padding:20px">
+    CESUM · Segundo Simulacro PEFA 2026 · Resultados generados automáticamente
+  </div>
+</div>
+</body>
+</html>
