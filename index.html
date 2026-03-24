@@ -223,6 +223,44 @@
 
         .creditos { margin-top: 8px; font-weight: 700; color: #667eea; }
 
+        /* ── BOTÓN DESCARGAR CSV ── */
+        .csv-section {
+            margin-top: 22px;
+            padding-top: 20px;
+            border-top: 2px solid #ecf0f1;
+        }
+
+        .csv-btn {
+            width: 100%;
+            padding: 15px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 15px;
+            font-weight: 700;
+            cursor: pointer;
+            transition: all 0.3s;
+            box-shadow: 0 8px 25px rgba(102,126,234,0.35);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .csv-btn:hover  { transform: translateY(-2px); box-shadow: 0 12px 35px rgba(102,126,234,0.45); }
+        .csv-btn:active { transform: translateY(0); }
+
+        .csv-btn .csv-icon { font-size: 20px; }
+
+        .csv-label {
+            display: block;
+            color: #7f8c8d;
+            font-size: 12px;
+            text-align: center;
+            margin-top: 8px;
+        }
+
         @media (max-width: 600px) {
             .container { padding: 28px 18px; }
             h1 { font-size: 22px; }
@@ -275,6 +313,14 @@
     <div class="error-message" id="errorMessage"></div>
 
     <div class="results" id="results"></div>
+
+    <div class="csv-section">
+        <button class="csv-btn" onclick="descargarNotasCSV()">
+            <span class="csv-icon">📥</span>
+            Descargar notas en CSV
+        </button>
+        <span class="csv-label">Descarga las notas de ambos simulacros en un archivo CSV</span>
+    </div>
 
     <div class="footer">
         Sistema de consulta de resultados — Simulacro Saber 11°
@@ -434,6 +480,108 @@ function mostrarError(msg) {
 document.getElementById('searchInput').addEventListener('keypress', e => {
     if (e.key === 'Enter') buscarEstudiante();
 });
+
+// ── DESCARGAR NOTAS EN CSV ────────────────────────────────────────────────────
+async function descargarNotasCSV() {
+    const btn = document.querySelector('.csv-btn');
+    const originalText = btn.innerHTML;
+    btn.innerHTML = '<span class="csv-icon">⏳</span> Cargando datos...';
+    btn.disabled = true;
+
+    try {
+        // Cargar sim2 si no está cargado
+        let sim2 = datosSim2;
+        if (!sim2) {
+            const r = await fetch('indice_sim2.json');
+            sim2 = await r.json();
+        }
+
+        // Construir mapa de notas: clave = nombre normalizado en mayúsculas
+        const mapa = {};
+
+        // Agregar todos los estudiantes del simulacro 1
+        datosSim1.forEach(e => {
+            const clave = e.nombre_completo.trim().toUpperCase();
+            mapa[clave] = {
+                nombre: e.nombre_completo.trim(),
+                sim1: e.puntaje_total,
+                sim2: 0
+            };
+        });
+
+        // Agregar / cruzar con simulacro 2
+        sim2.forEach(e => {
+            const nombreSim2 = e.nombre.trim().toUpperCase();
+
+            // Intentar encontrar coincidencia en el mapa de sim1
+            // Estrategia: buscar si el nombre de sim2 está contenido en alguna clave de sim1
+            // o si alguna clave de sim1 está contenida en el nombre de sim2
+            let claveEncontrada = null;
+
+            if (mapa[nombreSim2]) {
+                claveEncontrada = nombreSim2;
+            } else {
+                // Búsqueda tolerante: comparar versiones sin acentos
+                const normSim2 = nombreSim2.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+                for (const clave of Object.keys(mapa)) {
+                    const normClave = clave.normalize('NFD').replace(/[\u0300-\u036f]/g, '');
+                    if (normClave === normSim2) {
+                        claveEncontrada = clave;
+                        break;
+                    }
+                    // Coincidencia parcial: el nombre de sim2 contiene el apellido y nombre de sim1 o viceversa
+                    if (normClave.includes(normSim2) || normSim2.includes(normClave)) {
+                        claveEncontrada = clave;
+                        break;
+                    }
+                }
+            }
+
+            if (claveEncontrada) {
+                mapa[claveEncontrada].sim2 = e.icfes;
+            } else {
+                // Estudiante solo en sim2
+                mapa[nombreSim2] = {
+                    nombre: e.nombre.trim(),
+                    sim1: 0,
+                    sim2: e.icfes
+                };
+            }
+        });
+
+        // Generar CSV
+        const filas = [['Nombre', 'Nota_Simulacro_1', 'Nota_Simulacro_2']];
+        Object.values(mapa).forEach(({ nombre, sim1, sim2 }) => {
+            // Escapar comas y comillas en el nombre
+            const nombreEsc = '"' + nombre.replace(/"/g, '""') + '"';
+            filas.push([nombreEsc, sim1, sim2]);
+        });
+
+        const csv = filas.map(f => f.join(',')).join('\r\n');
+        const blob = new Blob(['\uFEFF' + csv], { type: 'text/csv;charset=utf-8;' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = 'notas_simulacros.csv';
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+
+        btn.innerHTML = '<span class="csv-icon">✅</span> ¡Descarga lista!';
+        setTimeout(() => {
+            btn.innerHTML = originalText;
+            btn.disabled = false;
+        }, 2500);
+
+    } catch (err) {
+        btn.innerHTML = '<span class="csv-icon">❌</span> Error al cargar datos';
+        setTimeout(() => {
+            btn.innerHTML = originalText;
+            btn.disabled = false;
+        }, 3000);
+    }
+}
 </script>
 </body>
 </html>
