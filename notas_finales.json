@@ -1,0 +1,1782 @@
+[
+  {
+    "nombre": "ANA SOFIA GONZALEZ CALAO",
+    "grupo": "111",
+    "sim1": 35.0,
+    "sim2": 48.4,
+    "ods": 100.0,
+    "nota_raw": 66.36,
+    "nota_final": 73.0,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "BIANA LICETH CASTRO RIVERA",
+    "grupo": "111",
+    "sim1": 50.0,
+    "sim2": 38.7,
+    "ods": 0,
+    "nota_raw": 25.48,
+    "nota_final": 25.48,
+    "estado": "reprobado"
+  },
+  {
+    "nombre": "BRESLY QUINTERO ROSARIO",
+    "grupo": "111",
+    "sim1": 15.0,
+    "sim2": 19.4,
+    "ods": 100.0,
+    "nota_raw": 50.76,
+    "nota_final": 60,
+    "estado": "salvado"
+  },
+  {
+    "nombre": "CRISTIANO RONALDO ROMERO ZUÑIGA",
+    "grupo": "111",
+    "sim1": 30.0,
+    "sim2": 35.5,
+    "ods": 100.0,
+    "nota_raw": 60.2,
+    "nota_final": 66.22,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "DIEGO ARMANDO CAMPO SALAZAR",
+    "grupo": "111",
+    "sim1": 45.0,
+    "sim2": 61.3,
+    "ods": 0,
+    "nota_raw": 33.52,
+    "nota_final": 33.52,
+    "estado": "reprobado"
+  },
+  {
+    "nombre": "DIONI SOLA MARTINEZ",
+    "grupo": "111",
+    "sim1": 40.0,
+    "sim2": 45.2,
+    "ods": 100.0,
+    "nota_raw": 66.08,
+    "nota_final": 72.69,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "HITA FERNANDA REYES CORDOBA",
+    "grupo": "111",
+    "sim1": 25.0,
+    "sim2": 41.9,
+    "ods": 100.0,
+    "nota_raw": 61.76,
+    "nota_final": 67.94,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "HOYOS LUZ ELENA PEREZ DE",
+    "grupo": "111",
+    "sim1": 30.0,
+    "sim2": 41.9,
+    "ods": 100.0,
+    "nota_raw": 62.76,
+    "nota_final": 69.04,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "ISABELLA VALENTINA HERRERA CAMAÑO",
+    "grupo": "111",
+    "sim1": 35.0,
+    "sim2": 51.6,
+    "ods": 110.0,
+    "nota_raw": 71.64,
+    "nota_final": 78.8,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "JHONEIDER LONDOÑO VASQUEZ",
+    "grupo": "111",
+    "sim1": 45.0,
+    "sim2": 32.3,
+    "ods": 100.0,
+    "nota_raw": 61.92,
+    "nota_final": 68.11,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "JOSE ALBEIRO CALLE MORENO",
+    "grupo": "111",
+    "sim1": 25.0,
+    "sim2": 45.2,
+    "ods": 100.0,
+    "nota_raw": 63.08,
+    "nota_final": 69.39,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "JUAN ESTEBAN FLOREZ MARTINEZ",
+    "grupo": "111",
+    "sim1": 30.0,
+    "sim2": 58.1,
+    "ods": 0,
+    "nota_raw": 29.24,
+    "nota_final": 29.24,
+    "estado": "reprobado"
+  },
+  {
+    "nombre": "JULIANA CONTRERAS GARCIA",
+    "grupo": "111",
+    "sim1": 25.0,
+    "sim2": 38.7,
+    "ods": 110.0,
+    "nota_raw": 64.48,
+    "nota_final": 70.93,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "KEINER ACOSTA BUENO",
+    "grupo": "111",
+    "sim1": 25.0,
+    "sim2": 41.9,
+    "ods": 100.0,
+    "nota_raw": 61.76,
+    "nota_final": 67.94,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "KEVIN DAVID CARRASCO MONTIEL",
+    "grupo": "111",
+    "sim1": 35.0,
+    "sim2": 58.1,
+    "ods": 110.0,
+    "nota_raw": 74.24,
+    "nota_final": 81.66,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "LUISA FERNANDA COLON SERRANO",
+    "grupo": "111",
+    "sim1": 35.0,
+    "sim2": 45.2,
+    "ods": 100.0,
+    "nota_raw": 65.08,
+    "nota_final": 71.59,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "MATIAS ANDRES BARRIOS SOTELO",
+    "grupo": "111",
+    "sim1": 30.0,
+    "sim2": 29.0,
+    "ods": 110.0,
+    "nota_raw": 61.6,
+    "nota_final": 67.76,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "NAIDERLIN ESPITIA CASTRO",
+    "grupo": "111",
+    "sim1": 25.0,
+    "sim2": 51.6,
+    "ods": 100.0,
+    "nota_raw": 65.64,
+    "nota_final": 72.2,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "OSSA POLO ALEX JOSE DE LA",
+    "grupo": "111",
+    "sim1": 45.0,
+    "sim2": 35.5,
+    "ods": 110.0,
+    "nota_raw": 67.2,
+    "nota_final": 73.92,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "SAMAHARA FLOREZ OVIEDO",
+    "grupo": "111",
+    "sim1": 35.0,
+    "sim2": 71.0,
+    "ods": 100.0,
+    "nota_raw": 75.4,
+    "nota_final": 82.94,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "SAMARA ARIZA ECHAVARRIA",
+    "grupo": "111",
+    "sim1": 30.0,
+    "sim2": 38.7,
+    "ods": 100.0,
+    "nota_raw": 61.48,
+    "nota_final": 67.63,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "SAMUEL ALEXANDER RODRIGUEZ VELASQUEZ",
+    "grupo": "111",
+    "sim1": 30.0,
+    "sim2": 22.6,
+    "ods": 110.0,
+    "nota_raw": 59.04,
+    "nota_final": 60,
+    "estado": "salvado"
+  },
+  {
+    "nombre": "SKARLIT YHIRET HERRERA GIL",
+    "grupo": "111",
+    "sim1": 35.0,
+    "sim2": 58.1,
+    "ods": 100.0,
+    "nota_raw": 70.24,
+    "nota_final": 77.26,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "STEFANY RUIZ MARTINEZ",
+    "grupo": "111",
+    "sim1": 25.0,
+    "sim2": 38.7,
+    "ods": 100.0,
+    "nota_raw": 60.48,
+    "nota_final": 66.53,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "TALIANA BERRIO MENDOZA",
+    "grupo": "111",
+    "sim1": 30.0,
+    "sim2": 45.2,
+    "ods": 100.0,
+    "nota_raw": 64.08,
+    "nota_final": 70.49,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "TALIANA CARDENAS MANSILLA",
+    "grupo": "111",
+    "sim1": 40.0,
+    "sim2": 29.0,
+    "ods": 100.0,
+    "nota_raw": 59.6,
+    "nota_final": 60,
+    "estado": "salvado"
+  },
+  {
+    "nombre": "YESID ANDRES ZEA CAMAÑO",
+    "grupo": "111",
+    "sim1": 20.0,
+    "sim2": 64.5,
+    "ods": 110.0,
+    "nota_raw": 73.8,
+    "nota_final": 81.18,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "YOINER ARRIETA JARAMILLO",
+    "grupo": "111",
+    "sim1": 30.0,
+    "sim2": 45.2,
+    "ods": 0,
+    "nota_raw": 24.08,
+    "nota_final": 24.08,
+    "estado": "reprobado"
+  },
+  {
+    "nombre": "ARIATHNA MESTRA ARDILA",
+    "grupo": "112",
+    "sim1": 30.0,
+    "sim2": 61.3,
+    "ods": 100.0,
+    "nota_raw": 70.52,
+    "nota_final": 77.57,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "ARRIETA DIDIER",
+    "grupo": "112",
+    "sim1": 0,
+    "sim2": 0,
+    "ods": 100.0,
+    "nota_raw": 40.0,
+    "nota_final": 40.0,
+    "estado": "reprobado"
+  },
+  {
+    "nombre": "ENIS YULISA HERNANDEZ PEÑATES",
+    "grupo": "112",
+    "sim1": 30.0,
+    "sim2": 22.6,
+    "ods": 0,
+    "nota_raw": 15.04,
+    "nota_final": 15.04,
+    "estado": "reprobado"
+  },
+  {
+    "nombre": "EVERNEY CALLE SOTELO",
+    "grupo": "112",
+    "sim1": 30.0,
+    "sim2": 45.2,
+    "ods": 100.0,
+    "nota_raw": 64.08,
+    "nota_final": 70.49,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "FREDY JOSE RODIÑO VALLEJO",
+    "grupo": "112",
+    "sim1": 35.0,
+    "sim2": 48.4,
+    "ods": 0,
+    "nota_raw": 26.36,
+    "nota_final": 26.36,
+    "estado": "reprobado"
+  },
+  {
+    "nombre": "GABRIELA HERNANDEZ DIAZ",
+    "grupo": "112",
+    "sim1": 45.0,
+    "sim2": 12.9,
+    "ods": 150.0,
+    "nota_raw": 74.16,
+    "nota_final": 81.58,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "JAIVER VILLADIEGO JIMENEZ",
+    "grupo": "112",
+    "sim1": 15.0,
+    "sim2": 25.8,
+    "ods": 110.0,
+    "nota_raw": 57.32,
+    "nota_final": 60,
+    "estado": "salvado"
+  },
+  {
+    "nombre": "JHONATAN DAVID CHITAN LOPEZ",
+    "grupo": "112",
+    "sim1": 35.0,
+    "sim2": 0,
+    "ods": 110.0,
+    "nota_raw": 51.0,
+    "nota_final": 60,
+    "estado": "salvado"
+  },
+  {
+    "nombre": "JULIANA ALVARADO MARTINEZ",
+    "grupo": "112",
+    "sim1": 20.0,
+    "sim2": 41.9,
+    "ods": 150.0,
+    "nota_raw": 80.76,
+    "nota_final": 88.84,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "JULIANA BANQUET MENDOZA",
+    "grupo": "112",
+    "sim1": 40.0,
+    "sim2": 61.3,
+    "ods": 100.0,
+    "nota_raw": 72.52,
+    "nota_final": 79.77,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "JULIANA CASTAÑEDA MEJIA",
+    "grupo": "112",
+    "sim1": 45.0,
+    "sim2": 64.5,
+    "ods": 100.0,
+    "nota_raw": 74.8,
+    "nota_final": 82.28,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "JUNIOR ENRIQUE MERCADO ROHENES",
+    "grupo": "112",
+    "sim1": 30.0,
+    "sim2": 19.4,
+    "ods": 0,
+    "nota_raw": 13.76,
+    "nota_final": 13.76,
+    "estado": "reprobado"
+  },
+  {
+    "nombre": "JUSTIN TIRADO GARAY",
+    "grupo": "112",
+    "sim1": 35.0,
+    "sim2": 64.5,
+    "ods": 130.0,
+    "nota_raw": 84.8,
+    "nota_final": 93.28,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "KAROL DAYANA ESCOBAR VARGAS",
+    "grupo": "112",
+    "sim1": 30.0,
+    "sim2": 58.1,
+    "ods": 130.0,
+    "nota_raw": 81.24,
+    "nota_final": 89.36,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "LIZ EMILY ZUÑIGA OSORIO",
+    "grupo": "112",
+    "sim1": 50.0,
+    "sim2": 29.0,
+    "ods": 100.0,
+    "nota_raw": 61.6,
+    "nota_final": 67.76,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "MARIA DE LOS ANGELES PASOS SOTELO",
+    "grupo": "112",
+    "sim1": 25.0,
+    "sim2": 45.2,
+    "ods": 0,
+    "nota_raw": 23.08,
+    "nota_final": 23.08,
+    "estado": "reprobado"
+  },
+  {
+    "nombre": "MARIA JOSE GARCIA GUERRA",
+    "grupo": "112",
+    "sim1": 35.0,
+    "sim2": 25.8,
+    "ods": 100.0,
+    "nota_raw": 57.32,
+    "nota_final": 60,
+    "estado": "salvado"
+  },
+  {
+    "nombre": "MARIA JOSE VILLEGAS HERRERA",
+    "grupo": "112",
+    "sim1": 35.0,
+    "sim2": 61.3,
+    "ods": 150.0,
+    "nota_raw": 91.52,
+    "nota_final": 100,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "MARIANA FLOREZ HERNANDEZ",
+    "grupo": "112",
+    "sim1": 15.0,
+    "sim2": 22.6,
+    "ods": 100.0,
+    "nota_raw": 52.04,
+    "nota_final": 60,
+    "estado": "salvado"
+  },
+  {
+    "nombre": "MICHELL ANDREA PEREZ CHOLES",
+    "grupo": "112",
+    "sim1": 30.0,
+    "sim2": 64.5,
+    "ods": 130.0,
+    "nota_raw": 83.8,
+    "nota_final": 92.18,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "NICOLAS ELIAS AGAMEZ ZABALA",
+    "grupo": "112",
+    "sim1": 40.0,
+    "sim2": 35.5,
+    "ods": 110.0,
+    "nota_raw": 66.2,
+    "nota_final": 72.82,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "PASO MARIA",
+    "grupo": "112",
+    "sim1": 0,
+    "sim2": 0,
+    "ods": 100.0,
+    "nota_raw": 40.0,
+    "nota_final": 40.0,
+    "estado": "reprobado"
+  },
+  {
+    "nombre": "PERTUZ ELIECER DE JESUS DE LEON",
+    "grupo": "112",
+    "sim1": 40.0,
+    "sim2": 19.4,
+    "ods": 100.0,
+    "nota_raw": 55.76,
+    "nota_final": 60,
+    "estado": "salvado"
+  },
+  {
+    "nombre": "SAMUEL ALEAN ZAPATA",
+    "grupo": "112",
+    "sim1": 40.0,
+    "sim2": 58.1,
+    "ods": 110.0,
+    "nota_raw": 75.24,
+    "nota_final": 82.76,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "SAMUEL VARGAS VIDES",
+    "grupo": "112",
+    "sim1": 35.0,
+    "sim2": 71.0,
+    "ods": 100.0,
+    "nota_raw": 75.4,
+    "nota_final": 82.94,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "STIVEN DARIO CALI ESTRADA",
+    "grupo": "112",
+    "sim1": 0,
+    "sim2": 58.1,
+    "ods": 110.0,
+    "nota_raw": 67.24,
+    "nota_final": 73.96,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "VALENTINA ARRIETA SIERRA",
+    "grupo": "112",
+    "sim1": 35.0,
+    "sim2": 41.9,
+    "ods": 150.0,
+    "nota_raw": 83.76,
+    "nota_final": 92.14,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "YASMILA MENDEZ HERNANDEZ",
+    "grupo": "112",
+    "sim1": 35.0,
+    "sim2": 35.5,
+    "ods": 130.0,
+    "nota_raw": 73.2,
+    "nota_final": 80.52,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "YEHIDER VILLORINA",
+    "grupo": "112",
+    "sim1": 25.0,
+    "sim2": 71.0,
+    "ods": 0,
+    "nota_raw": 33.4,
+    "nota_final": 33.4,
+    "estado": "reprobado"
+  },
+  {
+    "nombre": "CAMILA ANDREA SOTELO TORRES",
+    "grupo": "113",
+    "sim1": 40.0,
+    "sim2": 38.7,
+    "ods": 0,
+    "nota_raw": 23.48,
+    "nota_final": 23.48,
+    "estado": "reprobado"
+  },
+  {
+    "nombre": "DANNA CAROLINA SCHELEGUEL CORREA",
+    "grupo": "113",
+    "sim1": 30.0,
+    "sim2": 35.5,
+    "ods": 0,
+    "nota_raw": 20.2,
+    "nota_final": 20.2,
+    "estado": "reprobado"
+  },
+  {
+    "nombre": "DAVID MENDOZA HOYOS",
+    "grupo": "113",
+    "sim1": 35.0,
+    "sim2": 35.5,
+    "ods": 100.0,
+    "nota_raw": 61.2,
+    "nota_final": 67.32,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "DIDIER ESNEIDER CASTILLO CAMARGO",
+    "grupo": "113",
+    "sim1": 20.0,
+    "sim2": 41.9,
+    "ods": 100.0,
+    "nota_raw": 60.76,
+    "nota_final": 66.84,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "DIEGO DAVID DUQUE HERRERA",
+    "grupo": "113",
+    "sim1": 30.0,
+    "sim2": 54.8,
+    "ods": 100.0,
+    "nota_raw": 67.92,
+    "nota_final": 74.71,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "EDITH NATALIA MADERA PEREIRA",
+    "grupo": "113",
+    "sim1": 40.0,
+    "sim2": 38.7,
+    "ods": 100.0,
+    "nota_raw": 63.48,
+    "nota_final": 69.83,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "ENAN JOAQUIN TUIRAN MORENO",
+    "grupo": "113",
+    "sim1": 30.0,
+    "sim2": 35.5,
+    "ods": 115.0,
+    "nota_raw": 66.2,
+    "nota_final": 72.82,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "FLOREZ ALEJANDRA",
+    "grupo": "113",
+    "sim1": 0,
+    "sim2": 0,
+    "ods": 100.0,
+    "nota_raw": 40.0,
+    "nota_final": 40.0,
+    "estado": "reprobado"
+  },
+  {
+    "nombre": "ISABELLA FLOREZ CANO",
+    "grupo": "113",
+    "sim1": 40.0,
+    "sim2": 29.0,
+    "ods": 260.0,
+    "nota_raw": 123.6,
+    "nota_final": 100,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "JUAN DAVID JULIO VILLORINA",
+    "grupo": "113",
+    "sim1": 25.0,
+    "sim2": 19.4,
+    "ods": 115.0,
+    "nota_raw": 58.76,
+    "nota_final": 60,
+    "estado": "salvado"
+  },
+  {
+    "nombre": "JUAN FELIPE MERCADO PEREZ",
+    "grupo": "113",
+    "sim1": 30.0,
+    "sim2": 45.2,
+    "ods": 130.0,
+    "nota_raw": 76.08,
+    "nota_final": 83.69,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "JULIANA ARRIETA GOMEZ",
+    "grupo": "113",
+    "sim1": 30.0,
+    "sim2": 51.6,
+    "ods": 100.0,
+    "nota_raw": 66.64,
+    "nota_final": 73.3,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "JULIANA PEREZ VERGARA",
+    "grupo": "113",
+    "sim1": 45.0,
+    "sim2": 45.2,
+    "ods": 0,
+    "nota_raw": 27.08,
+    "nota_final": 27.08,
+    "estado": "reprobado"
+  },
+  {
+    "nombre": "KEINER GONZALEZ RAMOS",
+    "grupo": "113",
+    "sim1": 45.0,
+    "sim2": 25.8,
+    "ods": 115.0,
+    "nota_raw": 65.32,
+    "nota_final": 71.85,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "KEVIN ANDRES RUIZ PEREZ",
+    "grupo": "113",
+    "sim1": 55.0,
+    "sim2": 38.7,
+    "ods": 100.0,
+    "nota_raw": 66.48,
+    "nota_final": 73.13,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "LAUREN VANESSA ESTRADA GARCES",
+    "grupo": "113",
+    "sim1": 35.0,
+    "sim2": 51.6,
+    "ods": 0,
+    "nota_raw": 27.64,
+    "nota_final": 27.64,
+    "estado": "reprobado"
+  },
+  {
+    "nombre": "MADELINE CAMPO RIVERA",
+    "grupo": "113",
+    "sim1": 45.0,
+    "sim2": 64.5,
+    "ods": 260.0,
+    "nota_raw": 138.8,
+    "nota_final": 100,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "MARIA ANGEL JULIO HERNANDEZ",
+    "grupo": "113",
+    "sim1": 20.0,
+    "sim2": 35.5,
+    "ods": 100.0,
+    "nota_raw": 58.2,
+    "nota_final": 60,
+    "estado": "salvado"
+  },
+  {
+    "nombre": "MARIA ANGELICA PASTRANA RODRIGUEZ",
+    "grupo": "113",
+    "sim1": 25.0,
+    "sim2": 41.9,
+    "ods": 100.0,
+    "nota_raw": 61.76,
+    "nota_final": 67.94,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "MARIANGEL SALGADO MAZO",
+    "grupo": "113",
+    "sim1": 30.0,
+    "sim2": 29.0,
+    "ods": 130.0,
+    "nota_raw": 69.6,
+    "nota_final": 76.56,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "NIKOL MICHELL AVILA GARCIA",
+    "grupo": "113",
+    "sim1": 35.0,
+    "sim2": 29.0,
+    "ods": 100.0,
+    "nota_raw": 58.6,
+    "nota_final": 60,
+    "estado": "salvado"
+  },
+  {
+    "nombre": "PAMELA DENISE RUIZ VILLADIEGO",
+    "grupo": "113",
+    "sim1": 35.0,
+    "sim2": 64.5,
+    "ods": 100.0,
+    "nota_raw": 72.8,
+    "nota_final": 80.08,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "SANTIAGO CEBALLOS ZABALA",
+    "grupo": "113",
+    "sim1": 35.0,
+    "sim2": 45.2,
+    "ods": 100.0,
+    "nota_raw": 65.08,
+    "nota_final": 71.59,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "SHARON LISHELL RODRIGUEZ OSORIO",
+    "grupo": "113",
+    "sim1": 35.0,
+    "sim2": 35.5,
+    "ods": 0,
+    "nota_raw": 21.2,
+    "nota_final": 21.2,
+    "estado": "reprobado"
+  },
+  {
+    "nombre": "SYARA SOFIA DIAZ HERNANDEZ",
+    "grupo": "113",
+    "sim1": 35.0,
+    "sim2": 58.1,
+    "ods": 260.0,
+    "nota_raw": 134.24,
+    "nota_final": 100,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "VALENTINA AGUAS ATENCIA",
+    "grupo": "113",
+    "sim1": 45.0,
+    "sim2": 35.5,
+    "ods": 0,
+    "nota_raw": 23.2,
+    "nota_final": 23.2,
+    "estado": "reprobado"
+  },
+  {
+    "nombre": "YISEL KAROLINA RAMOS BELEÑO",
+    "grupo": "113",
+    "sim1": 30.0,
+    "sim2": 45.2,
+    "ods": 130.0,
+    "nota_raw": 76.08,
+    "nota_final": 83.69,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "ANDREA LISETH CAMARGO URANGO",
+    "grupo": "114",
+    "sim1": 20.0,
+    "sim2": 54.8,
+    "ods": 70.0,
+    "nota_raw": 53.92,
+    "nota_final": 60,
+    "estado": "salvado"
+  },
+  {
+    "nombre": "ANDRES DIAZ CASTRO",
+    "grupo": "114",
+    "sim1": 30.0,
+    "sim2": 41.9,
+    "ods": 70.0,
+    "nota_raw": 50.76,
+    "nota_final": 60,
+    "estado": "salvado"
+  },
+  {
+    "nombre": "ANGELICA MADRID SIERRA",
+    "grupo": "114",
+    "sim1": 40.0,
+    "sim2": 54.8,
+    "ods": 0,
+    "nota_raw": 29.92,
+    "nota_final": 29.92,
+    "estado": "reprobado"
+  },
+  {
+    "nombre": "ANGIE PAOLA ALARCON MENDEZ",
+    "grupo": "114",
+    "sim1": 30.0,
+    "sim2": 35.5,
+    "ods": 90.0,
+    "nota_raw": 56.2,
+    "nota_final": 60,
+    "estado": "salvado"
+  },
+  {
+    "nombre": "BENITEZ JOHAN",
+    "grupo": "114",
+    "sim1": 0,
+    "sim2": 0,
+    "ods": 70.0,
+    "nota_raw": 28.0,
+    "nota_final": 28.0,
+    "estado": "reprobado"
+  },
+  {
+    "nombre": "DAYLIS PEREZ PADILLA",
+    "grupo": "114",
+    "sim1": 35.0,
+    "sim2": 58.1,
+    "ods": 100.0,
+    "nota_raw": 70.24,
+    "nota_final": 77.26,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "FUENTES SHERY",
+    "grupo": "114",
+    "sim1": 0,
+    "sim2": 0,
+    "ods": 80.0,
+    "nota_raw": 32.0,
+    "nota_final": 32.0,
+    "estado": "reprobado"
+  },
+  {
+    "nombre": "GABRIELA CORONADO OJEDA",
+    "grupo": "114",
+    "sim1": 35.0,
+    "sim2": 25.8,
+    "ods": 90.0,
+    "nota_raw": 53.32,
+    "nota_final": 60,
+    "estado": "salvado"
+  },
+  {
+    "nombre": "HECTOR LUIS FUENTES MENDOZA",
+    "grupo": "114",
+    "sim1": 35.0,
+    "sim2": 25.8,
+    "ods": 80.0,
+    "nota_raw": 49.32,
+    "nota_final": 49.32,
+    "estado": "reprobado"
+  },
+  {
+    "nombre": "ISABEL CASTILLO RICARDO",
+    "grupo": "114",
+    "sim1": 30.0,
+    "sim2": 45.2,
+    "ods": 70.0,
+    "nota_raw": 52.08,
+    "nota_final": 60,
+    "estado": "salvado"
+  },
+  {
+    "nombre": "IVAN DAVID MARCELO SERPA",
+    "grupo": "114",
+    "sim1": 40.0,
+    "sim2": 41.9,
+    "ods": 80.0,
+    "nota_raw": 56.76,
+    "nota_final": 60,
+    "estado": "salvado"
+  },
+  {
+    "nombre": "JAIDER DAVID MEZA AVILES",
+    "grupo": "114",
+    "sim1": 25.0,
+    "sim2": 41.9,
+    "ods": 80.0,
+    "nota_raw": 53.76,
+    "nota_final": 60,
+    "estado": "salvado"
+  },
+  {
+    "nombre": "JESUS ORLANDO FINO RICARDO",
+    "grupo": "114",
+    "sim1": 40.0,
+    "sim2": 45.2,
+    "ods": 0,
+    "nota_raw": 26.08,
+    "nota_final": 26.08,
+    "estado": "reprobado"
+  },
+  {
+    "nombre": "JIMENA ANDREA HOLGUIN CARDEÑO",
+    "grupo": "114",
+    "sim1": 30.0,
+    "sim2": 29.0,
+    "ods": 70.0,
+    "nota_raw": 45.6,
+    "nota_final": 45.6,
+    "estado": "reprobado"
+  },
+  {
+    "nombre": "JOSE DANIEL ORTEGA JIMENEZ",
+    "grupo": "114",
+    "sim1": 25.0,
+    "sim2": 29.0,
+    "ods": 0,
+    "nota_raw": 16.6,
+    "nota_final": 16.6,
+    "estado": "reprobado"
+  },
+  {
+    "nombre": "JUAN PABLO PATERNINA HINCAPIE",
+    "grupo": "114",
+    "sim1": 30.0,
+    "sim2": 74.2,
+    "ods": 70.0,
+    "nota_raw": 63.68,
+    "nota_final": 70.05,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "KEVIN DAVID MEJIA HEREDIA",
+    "grupo": "114",
+    "sim1": 30.0,
+    "sim2": 61.3,
+    "ods": 70.0,
+    "nota_raw": 58.52,
+    "nota_final": 60,
+    "estado": "salvado"
+  },
+  {
+    "nombre": "LORENA LORETH MONTES CORDERO",
+    "grupo": "114",
+    "sim1": 30.0,
+    "sim2": 25.8,
+    "ods": 0,
+    "nota_raw": 16.32,
+    "nota_final": 16.32,
+    "estado": "reprobado"
+  },
+  {
+    "nombre": "MARIA ALEJANDRA RAMOS CALLE",
+    "grupo": "114",
+    "sim1": 40.0,
+    "sim2": 45.2,
+    "ods": 100.0,
+    "nota_raw": 66.08,
+    "nota_final": 72.69,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "MARIA JOSE PEREZ CANTERO",
+    "grupo": "114",
+    "sim1": 30.0,
+    "sim2": 29.0,
+    "ods": 120.0,
+    "nota_raw": 65.6,
+    "nota_final": 72.16,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "MARISOL MARTINEZ SALAS",
+    "grupo": "114",
+    "sim1": 25.0,
+    "sim2": 48.4,
+    "ods": 80.0,
+    "nota_raw": 56.36,
+    "nota_final": 60,
+    "estado": "salvado"
+  },
+  {
+    "nombre": "MELANI ALEJANDRA MALDONADO VILLALBA",
+    "grupo": "114",
+    "sim1": 25.0,
+    "sim2": 51.6,
+    "ods": 100.0,
+    "nota_raw": 65.64,
+    "nota_final": 72.2,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "SAMUEL DAVID FABRA VAZQUEZ",
+    "grupo": "114",
+    "sim1": 20.0,
+    "sim2": 19.4,
+    "ods": 40.0,
+    "nota_raw": 27.76,
+    "nota_final": 27.76,
+    "estado": "reprobado"
+  },
+  {
+    "nombre": "SARA IBAÑEZ CAUSIL",
+    "grupo": "114",
+    "sim1": 40.0,
+    "sim2": 35.5,
+    "ods": 100.0,
+    "nota_raw": 62.2,
+    "nota_final": 68.42,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "SARAY CAMILA PIMIENTA SOTO",
+    "grupo": "114",
+    "sim1": 40.0,
+    "sim2": 64.5,
+    "ods": 80.0,
+    "nota_raw": 65.8,
+    "nota_final": 72.38,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "SHERYL ANDREA FUENTES MENDEZ",
+    "grupo": "114",
+    "sim1": 30.0,
+    "sim2": 29.0,
+    "ods": 0,
+    "nota_raw": 17.6,
+    "nota_final": 17.6,
+    "estado": "reprobado"
+  },
+  {
+    "nombre": "VICTOR ANDRES ESPITIA MORALES",
+    "grupo": "114",
+    "sim1": 35.0,
+    "sim2": 45.2,
+    "ods": 100.0,
+    "nota_raw": 65.08,
+    "nota_final": 71.59,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "VICTOR MANUEL TEJADA ZUÑIGA",
+    "grupo": "114",
+    "sim1": 25.0,
+    "sim2": 41.9,
+    "ods": 100.0,
+    "nota_raw": 61.76,
+    "nota_final": 67.94,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "YENNIFER CASTILLO SUAREZ",
+    "grupo": "114",
+    "sim1": 35.0,
+    "sim2": 51.6,
+    "ods": 0,
+    "nota_raw": 27.64,
+    "nota_final": 27.64,
+    "estado": "reprobado"
+  },
+  {
+    "nombre": "YOJAN DAVID BENITEZ BARRIOS",
+    "grupo": "114",
+    "sim1": 30.0,
+    "sim2": 45.2,
+    "ods": 0,
+    "nota_raw": 24.08,
+    "nota_final": 24.08,
+    "estado": "reprobado"
+  },
+  {
+    "nombre": "YONIER ANDRES SALA SOLIS",
+    "grupo": "114",
+    "sim1": 40.0,
+    "sim2": 16.1,
+    "ods": 0,
+    "nota_raw": 14.44,
+    "nota_final": 14.44,
+    "estado": "reprobado"
+  },
+  {
+    "nombre": "ALEJANDRO ZARZA HOYOS",
+    "grupo": "115",
+    "sim1": 0,
+    "sim2": 58.1,
+    "ods": 0,
+    "nota_raw": 23.24,
+    "nota_final": 23.24,
+    "estado": "reprobado"
+  },
+  {
+    "nombre": "ALYS PATRICIA HERNANDEZ PASTRANA",
+    "grupo": "115",
+    "sim1": 0,
+    "sim2": 48.4,
+    "ods": 95.0,
+    "nota_raw": 57.36,
+    "nota_final": 60,
+    "estado": "salvado"
+  },
+  {
+    "nombre": "CAMILO ANDRES MURILLO BUELVAS",
+    "grupo": "115",
+    "sim1": 30.0,
+    "sim2": 54.8,
+    "ods": 50.0,
+    "nota_raw": 47.92,
+    "nota_final": 47.92,
+    "estado": "reprobado"
+  },
+  {
+    "nombre": "CARLOS DANIEL MARCHENA BARRERO",
+    "grupo": "115",
+    "sim1": 15.0,
+    "sim2": 54.8,
+    "ods": 80.0,
+    "nota_raw": 56.92,
+    "nota_final": 60,
+    "estado": "salvado"
+  },
+  {
+    "nombre": "CARLOS ENRIQUE MENDOZA FERIA",
+    "grupo": "115",
+    "sim1": 35.0,
+    "sim2": 54.8,
+    "ods": 100.0,
+    "nota_raw": 68.92,
+    "nota_final": 75.81,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "ELEMI HERNANDEZ ALVAREZ",
+    "grupo": "115",
+    "sim1": 25.0,
+    "sim2": 45.2,
+    "ods": 85.0,
+    "nota_raw": 57.08,
+    "nota_final": 60,
+    "estado": "salvado"
+  },
+  {
+    "nombre": "ELISEO LUNA PEREZ",
+    "grupo": "115",
+    "sim1": 35.0,
+    "sim2": 35.5,
+    "ods": 70.0,
+    "nota_raw": 49.2,
+    "nota_final": 49.2,
+    "estado": "reprobado"
+  },
+  {
+    "nombre": "ESTEBAN DAVID CORONADO PALENCIA",
+    "grupo": "115",
+    "sim1": 50.0,
+    "sim2": 41.9,
+    "ods": 100.0,
+    "nota_raw": 66.76,
+    "nota_final": 73.44,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "GENESIS ROMERO ACOSTA",
+    "grupo": "115",
+    "sim1": 45.0,
+    "sim2": 48.4,
+    "ods": 100.0,
+    "nota_raw": 68.36,
+    "nota_final": 75.2,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "JESUS DAVID VERGARA OCAMPO",
+    "grupo": "115",
+    "sim1": 40.0,
+    "sim2": 58.1,
+    "ods": 100.0,
+    "nota_raw": 71.24,
+    "nota_final": 78.36,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "JHOJAN STIVEN ALZATE CARMONA",
+    "grupo": "115",
+    "sim1": 25.0,
+    "sim2": 29.0,
+    "ods": 90.0,
+    "nota_raw": 52.6,
+    "nota_final": 60,
+    "estado": "salvado"
+  },
+  {
+    "nombre": "JOHN ESTEBAN FLOREZ LONDOÑO",
+    "grupo": "115",
+    "sim1": 40.0,
+    "sim2": 12.9,
+    "ods": 100.0,
+    "nota_raw": 53.16,
+    "nota_final": 60,
+    "estado": "salvado"
+  },
+  {
+    "nombre": "JUAN ANDRES CARVAJAL DIAZ",
+    "grupo": "115",
+    "sim1": 30.0,
+    "sim2": 48.4,
+    "ods": 100.0,
+    "nota_raw": 65.36,
+    "nota_final": 71.9,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "JUAN CAMILO GAMARRA LOPEZ",
+    "grupo": "115",
+    "sim1": 45.0,
+    "sim2": 35.5,
+    "ods": 80.0,
+    "nota_raw": 55.2,
+    "nota_final": 60,
+    "estado": "salvado"
+  },
+  {
+    "nombre": "JUAN CAMILO RICARDO VEGA",
+    "grupo": "115",
+    "sim1": 25.0,
+    "sim2": 51.6,
+    "ods": 95.0,
+    "nota_raw": 63.64,
+    "nota_final": 70.0,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "JULIANA ANDREA PASTRANA ROMERO",
+    "grupo": "115",
+    "sim1": 30.0,
+    "sim2": 25.8,
+    "ods": 75.0,
+    "nota_raw": 46.32,
+    "nota_final": 46.32,
+    "estado": "reprobado"
+  },
+  {
+    "nombre": "KATALINA PEREZ MORENO",
+    "grupo": "115",
+    "sim1": 40.0,
+    "sim2": 29.0,
+    "ods": 95.0,
+    "nota_raw": 57.6,
+    "nota_final": 60,
+    "estado": "salvado"
+  },
+  {
+    "nombre": "KELLY JOHANA MONTERROZA CASARRUBIA",
+    "grupo": "115",
+    "sim1": 40.0,
+    "sim2": 38.7,
+    "ods": 0,
+    "nota_raw": 23.48,
+    "nota_final": 23.48,
+    "estado": "reprobado"
+  },
+  {
+    "nombre": "KELLY JOHANA ROMERO CASARRUBIA",
+    "grupo": "115",
+    "sim1": 30.0,
+    "sim2": 41.9,
+    "ods": 70.0,
+    "nota_raw": 50.76,
+    "nota_final": 60,
+    "estado": "salvado"
+  },
+  {
+    "nombre": "LEONEL ANDRES RIVERA SILVA",
+    "grupo": "115",
+    "sim1": 35.0,
+    "sim2": 45.2,
+    "ods": 70.0,
+    "nota_raw": 53.08,
+    "nota_final": 60,
+    "estado": "salvado"
+  },
+  {
+    "nombre": "LUIS EDUARDO SALGADO QUINTERO",
+    "grupo": "115",
+    "sim1": 20.0,
+    "sim2": 19.4,
+    "ods": 100.0,
+    "nota_raw": 51.76,
+    "nota_final": 60,
+    "estado": "salvado"
+  },
+  {
+    "nombre": "LUIS FERNANDO TEJADA GUERRERO",
+    "grupo": "115",
+    "sim1": 30.0,
+    "sim2": 51.6,
+    "ods": 0,
+    "nota_raw": 26.64,
+    "nota_final": 26.64,
+    "estado": "reprobado"
+  },
+  {
+    "nombre": "LUISA FERNANDA BENITEZ BALTAZAR",
+    "grupo": "115",
+    "sim1": 30.0,
+    "sim2": 45.2,
+    "ods": 90.0,
+    "nota_raw": 60.08,
+    "nota_final": 66.09,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "MONICA PAOLA MONTALVO SOTO",
+    "grupo": "115",
+    "sim1": 25.0,
+    "sim2": 32.3,
+    "ods": 85.0,
+    "nota_raw": 51.92,
+    "nota_final": 60,
+    "estado": "salvado"
+  },
+  {
+    "nombre": "MONTERROSA CASARUBIA KELLY",
+    "grupo": "115",
+    "sim1": 0,
+    "sim2": 0,
+    "ods": 100.0,
+    "nota_raw": 40.0,
+    "nota_final": 40.0,
+    "estado": "reprobado"
+  },
+  {
+    "nombre": "NATALIA SANCHEZ MONTERROZA",
+    "grupo": "115",
+    "sim1": 35.0,
+    "sim2": 41.9,
+    "ods": 75.0,
+    "nota_raw": 53.76,
+    "nota_final": 60,
+    "estado": "salvado"
+  },
+  {
+    "nombre": "NICOL STEFANY BAQUERO DIAZ",
+    "grupo": "115",
+    "sim1": 35.0,
+    "sim2": 29.0,
+    "ods": 100.0,
+    "nota_raw": 58.6,
+    "nota_final": 60,
+    "estado": "salvado"
+  },
+  {
+    "nombre": "NICOLAS ELIAS CANOLE VASQUEZ",
+    "grupo": "115",
+    "sim1": 15.0,
+    "sim2": 41.9,
+    "ods": 0,
+    "nota_raw": 19.76,
+    "nota_final": 19.76,
+    "estado": "reprobado"
+  },
+  {
+    "nombre": "VALENTINA ESTREMOR PEREZ",
+    "grupo": "115",
+    "sim1": 40.0,
+    "sim2": 58.1,
+    "ods": 100.0,
+    "nota_raw": 71.24,
+    "nota_final": 78.36,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "YERMAN YAIR RUIZ GRANADOS",
+    "grupo": "115",
+    "sim1": 45.0,
+    "sim2": 48.4,
+    "ods": 0,
+    "nota_raw": 28.36,
+    "nota_final": 28.36,
+    "estado": "reprobado"
+  },
+  {
+    "nombre": "YURIS PAOLA RODRIGUEZ FLOREZ",
+    "grupo": "115",
+    "sim1": 20.0,
+    "sim2": 48.4,
+    "ods": 100.0,
+    "nota_raw": 63.36,
+    "nota_final": 69.7,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "ANA SOFIA VERGARA MARTINEZ",
+    "grupo": "116",
+    "sim1": 20.0,
+    "sim2": 32.3,
+    "ods": 120.0,
+    "nota_raw": 64.92,
+    "nota_final": 71.41,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "ANDRES FELIPE MARTINEZ PACHECO",
+    "grupo": "116",
+    "sim1": 30.0,
+    "sim2": 38.7,
+    "ods": 100.0,
+    "nota_raw": 61.48,
+    "nota_final": 67.63,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "ANDY PAOLA MANTILLA ESPITIA",
+    "grupo": "116",
+    "sim1": 40.0,
+    "sim2": 45.2,
+    "ods": 120.0,
+    "nota_raw": 74.08,
+    "nota_final": 81.49,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "ANGELICA MARTINEZ BALBERA",
+    "grupo": "116",
+    "sim1": 50.0,
+    "sim2": 61.3,
+    "ods": 0,
+    "nota_raw": 34.52,
+    "nota_final": 34.52,
+    "estado": "reprobado"
+  },
+  {
+    "nombre": "ANYS ANDREA GUTIERREZ ARRIETA",
+    "grupo": "116",
+    "sim1": 30.0,
+    "sim2": 22.6,
+    "ods": 100.0,
+    "nota_raw": 55.04,
+    "nota_final": 60,
+    "estado": "salvado"
+  },
+  {
+    "nombre": "CRISTIAN DAVID MONTALVO PACHECO",
+    "grupo": "116",
+    "sim1": 35.0,
+    "sim2": 9.7,
+    "ods": 100.0,
+    "nota_raw": 50.88,
+    "nota_final": 60,
+    "estado": "salvado"
+  },
+  {
+    "nombre": "DAILY ALEJANDRA ARGUMEDO SALAS",
+    "grupo": "116",
+    "sim1": 30.0,
+    "sim2": 38.7,
+    "ods": 100.0,
+    "nota_raw": 61.48,
+    "nota_final": 67.63,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "DANILSA MERCADO TIRADO",
+    "grupo": "116",
+    "sim1": 45.0,
+    "sim2": 51.6,
+    "ods": 0,
+    "nota_raw": 29.64,
+    "nota_final": 29.64,
+    "estado": "reprobado"
+  },
+  {
+    "nombre": "DIDIEN MATIAS ROMERO SIERRA",
+    "grupo": "116",
+    "sim1": 30.0,
+    "sim2": 35.5,
+    "ods": 100.0,
+    "nota_raw": 60.2,
+    "nota_final": 66.22,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "DIEGO PADILLA MORA",
+    "grupo": "116",
+    "sim1": 30.0,
+    "sim2": 38.7,
+    "ods": 100.0,
+    "nota_raw": 61.48,
+    "nota_final": 67.63,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "ELIZABETH PEREIRA LOPEZ",
+    "grupo": "116",
+    "sim1": 30.0,
+    "sim2": 41.9,
+    "ods": 115.0,
+    "nota_raw": 68.76,
+    "nota_final": 75.64,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "ESTHER MARIA LONDOÑO BARRIOS",
+    "grupo": "116",
+    "sim1": 40.0,
+    "sim2": 38.7,
+    "ods": 100.0,
+    "nota_raw": 63.48,
+    "nota_final": 69.83,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "JHON FREED QUINTERO SUAREZ",
+    "grupo": "116",
+    "sim1": 0,
+    "sim2": 29.0,
+    "ods": 0,
+    "nota_raw": 11.6,
+    "nota_final": 11.6,
+    "estado": "reprobado"
+  },
+  {
+    "nombre": "JOSE JULIAN PATERNINA ARCIA",
+    "grupo": "116",
+    "sim1": 10.0,
+    "sim2": 29.0,
+    "ods": 100.0,
+    "nota_raw": 53.6,
+    "nota_final": 60,
+    "estado": "salvado"
+  },
+  {
+    "nombre": "KATY MILENA SALGADO VERONA",
+    "grupo": "116",
+    "sim1": 45.0,
+    "sim2": 38.7,
+    "ods": 100.0,
+    "nota_raw": 64.48,
+    "nota_final": 70.93,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "KEILLY MICHELLE HERNANDEZ HOYOS",
+    "grupo": "116",
+    "sim1": 25.0,
+    "sim2": 38.7,
+    "ods": 100.0,
+    "nota_raw": 60.48,
+    "nota_final": 66.53,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "KEILLY MICHELLE HERNANDEZ HOYOS",
+    "grupo": "116",
+    "sim1": 25.0,
+    "sim2": 38.7,
+    "ods": 100.0,
+    "nota_raw": 60.48,
+    "nota_final": 66.53,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "MARIA CAROLINA GOMEZ MUÑOZ",
+    "grupo": "116",
+    "sim1": 30.0,
+    "sim2": 19.4,
+    "ods": 120.0,
+    "nota_raw": 61.76,
+    "nota_final": 67.94,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "MELANI PEÑATES GARAVITO",
+    "grupo": "116",
+    "sim1": 35.0,
+    "sim2": 54.8,
+    "ods": 0,
+    "nota_raw": 28.92,
+    "nota_final": 28.92,
+    "estado": "reprobado"
+  },
+  {
+    "nombre": "MICHELL ANDREA MESA RIVERA",
+    "grupo": "116",
+    "sim1": 40.0,
+    "sim2": 22.6,
+    "ods": 100.0,
+    "nota_raw": 57.04,
+    "nota_final": 60,
+    "estado": "salvado"
+  },
+  {
+    "nombre": "ORNELLA HEREDIA MORENO",
+    "grupo": "116",
+    "sim1": 35.0,
+    "sim2": 29.0,
+    "ods": 115.0,
+    "nota_raw": 64.6,
+    "nota_final": 71.06,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "PATRICIA DEL CARMEN RODRIGUEZ VERTEL",
+    "grupo": "116",
+    "sim1": 30.0,
+    "sim2": 41.9,
+    "ods": 100.0,
+    "nota_raw": 62.76,
+    "nota_final": 69.04,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "RONALD SAMPAYO ALVIS",
+    "grupo": "116",
+    "sim1": 45.0,
+    "sim2": 16.1,
+    "ods": 100.0,
+    "nota_raw": 55.44,
+    "nota_final": 60,
+    "estado": "salvado"
+  },
+  {
+    "nombre": "SARA MARCELA TORREZ MENDOZA",
+    "grupo": "116",
+    "sim1": 35.0,
+    "sim2": 54.8,
+    "ods": 100.0,
+    "nota_raw": 68.92,
+    "nota_final": 75.81,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "SEBASTIAN RUIZ MONTERROZA",
+    "grupo": "116",
+    "sim1": 30.0,
+    "sim2": 41.9,
+    "ods": 100.0,
+    "nota_raw": 62.76,
+    "nota_final": 69.04,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "SOFIA MARTINEZ HERNANDEZ",
+    "grupo": "116",
+    "sim1": 30.0,
+    "sim2": 51.6,
+    "ods": 100.0,
+    "nota_raw": 66.64,
+    "nota_final": 73.3,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "STEFANIA GUERRA VILLA",
+    "grupo": "116",
+    "sim1": 40.0,
+    "sim2": 32.3,
+    "ods": 100.0,
+    "nota_raw": 60.92,
+    "nota_final": 67.01,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "STEVEN ANDRES HOYOS NAVARRO",
+    "grupo": "116",
+    "sim1": 30.0,
+    "sim2": 77.4,
+    "ods": 100.0,
+    "nota_raw": 76.96,
+    "nota_final": 84.66,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "TALIANA CORREA OVIEDO",
+    "grupo": "116",
+    "sim1": 45.0,
+    "sim2": 22.6,
+    "ods": 100.0,
+    "nota_raw": 58.04,
+    "nota_final": 60,
+    "estado": "salvado"
+  },
+  {
+    "nombre": "VALERI CORREA DOMINGUEZ",
+    "grupo": "116",
+    "sim1": 40.0,
+    "sim2": 38.7,
+    "ods": 100.0,
+    "nota_raw": 63.48,
+    "nota_final": 69.83,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "YADY ISABEL RAMIREZ MORALES",
+    "grupo": "116",
+    "sim1": 30.0,
+    "sim2": 29.0,
+    "ods": 115.0,
+    "nota_raw": 63.6,
+    "nota_final": 69.96,
+    "estado": "aprobado"
+  },
+  {
+    "nombre": "YALENA SOFIA SALAZAR OYOLA",
+    "grupo": "116",
+    "sim1": 35.0,
+    "sim2": 25.8,
+    "ods": 115.0,
+    "nota_raw": 63.32,
+    "nota_final": 69.65,
+    "estado": "aprobado"
+  }
+]
