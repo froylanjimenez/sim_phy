@@ -1,0 +1,906 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Sim 3 – MARIA ANGELICA PASTRANA RODRIGUEZ</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;background:#f0fff4;min-height:100vh}
+.container{max-width:1100px;margin:0 auto;padding:20px}
+.header{background:linear-gradient(135deg,#1B5E20,#2E7D32,#388E3C);color:white;padding:40px;
+  border-radius:20px;margin-bottom:30px;box-shadow:0 10px 40px rgba(46,125,50,.4);text-align:center}
+.header h1{font-size:2em;font-weight:800;margin-bottom:8px}
+.header .sub{font-size:1em;opacity:.9}.header .fecha{font-size:.9em;opacity:.7}
+.card{background:white;border-radius:16px;padding:28px;margin-bottom:24px;box-shadow:0 4px 20px rgba(0,0,0,.08)}
+.card-title{font-size:1.2em;font-weight:700;color:#1B5E20;margin-bottom:18px;
+  padding-bottom:10px;border-bottom:3px solid #E8F5E9;display:flex;align-items:center;gap:8px}
+table{width:100%;border-collapse:collapse;font-size:.9em}
+th{background:#2E7D32;color:white;padding:11px 10px;text-align:left}
+td{padding:9px;border-bottom:1px solid #E8F5E9}
+tr:hover td{background:#F1F8E9}
+.badge{display:inline-block;padding:4px 12px;border-radius:20px;font-size:.8em;font-weight:700;color:white}
+.icfes{background:linear-gradient(135deg,#1B5E20,#2E7D32);color:white;
+  border-radius:20px;padding:24px 32px;text-align:center;margin-bottom:20px}
+.icfes .score{font-size:4em;font-weight:900;line-height:1}
+.student-hdr{background:linear-gradient(135deg,#1B5E20,#2E7D32);color:white;
+  border-radius:16px;padding:28px;margin-bottom:24px;box-shadow:0 8px 30px rgba(27,94,32,.4)}
+.info-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:14px}
+.info-item{text-align:center;background:rgba(255,255,255,.15);border-radius:10px;padding:14px}
+.info-label{font-size:.75em;opacity:.85;margin-bottom:4px;text-transform:uppercase}
+.info-value{font-size:2em;font-weight:800}
+@media(max-width:600px){.icfes .score{font-size:3em}}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="header">
+  <h1>Concentración Educativa del Sur de Montelíbano</h1>
+  <div class="sub">CESUM – Grado 11°</div>
+  <div class="fecha">Tercer Simulacro PEFA 2026 · Abril 2026</div>
+</div>
+
+<div class="student-hdr">
+  <h2>👤 MARIA ANGELICA PASTRANA RODRIGUEZ</h2>
+  <div class="info-grid">
+    <div class="info-item"><div class="info-label">Posición General</div>
+      <div class="info-value">#96</div>
+      <div style="font-size:.78em;opacity:.85">de 159 estudiantes</div></div>
+    <div class="info-item"><div class="info-label">Grupo General</div>
+      <div class="info-value" style="font-size:2.2em;color:#6A1B9Acc">4</div>
+      <div style="font-size:.78em;opacity:.85">📖 Básico</div></div>
+  </div>
+</div>
+
+<div class="icfes">
+  <div style="font-size:.85em;opacity:.85;text-transform:uppercase;letter-spacing:1px">Puntaje ICFES Simulado</div>
+  <div class="score">308</div>
+  <div style="font-size:.8em;opacity:.7;margin-top:4px">de 500 puntos posibles · 61.7% del máximo</div>
+  <div style="background:rgba(255,255,255,.2);border-radius:12px;height:16px;margin-top:14px;overflow:hidden">
+    <div style="width:61.7%;height:100%;background:white;border-radius:12px;opacity:.9"></div>
+  </div>
+  <div style="display:flex;justify-content:space-between;font-size:.72em;opacity:.7;margin-top:4px">
+    <span>0</span><span>100</span><span>200</span><span>300</span><span>400</span><span>500</span>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-title">📊 Puntaje por Área ICFES (0-100 cada área)</div>
+  <div style="overflow-x:auto">
+    <table>
+      <thead><tr><th>Área ICFES</th><th>Puntaje</th><th>Desempeño</th><th>Grupo</th><th>Prom. General</th></tr></thead>
+      <tbody>
+<tr>
+  <td><b>📐 Matemáticas</b></td>
+  <td style="font-weight:700;font-size:1.1em;color:#1565C0">40.0</td>
+  <td>
+    <div style="display:flex;align-items:center;gap:8px">
+      <div style="flex:1;background:#E3F2FD;border-radius:10px;height:12px;overflow:hidden">
+        <div style="width:40.0%;height:100%;background:#1565C0;border-radius:10px"></div>
+      </div>
+      <span style="font-weight:700;color:#1565C0;min-width:38px">40%</span>
+    </div>
+  </td>
+  <td><span class="badge" style="background:#6A1B9A">Básico</span></td>
+  <td style="color:#777;font-size:.85em">Prom: 47.1</td>
+</tr>
+<tr>
+  <td><b>📚 Lectura Crítica</b></td>
+  <td style="font-weight:700;font-size:1.1em;color:#6A1B9A">84.4</td>
+  <td>
+    <div style="display:flex;align-items:center;gap:8px">
+      <div style="flex:1;background:#EDE7F6;border-radius:10px;height:12px;overflow:hidden">
+        <div style="width:84.4%;height:100%;background:#6A1B9A;border-radius:10px"></div>
+      </div>
+      <span style="font-weight:700;color:#6A1B9A;min-width:38px">84%</span>
+    </div>
+  </td>
+  <td><span class="badge" style="background:#6A1B9A">Básico</span></td>
+  <td style="color:#777;font-size:.85em">Prom: 83.8</td>
+</tr>
+<tr>
+  <td><b>🔬 Ciencias Naturales</b></td>
+  <td style="font-weight:700;font-size:1.1em;color:#2E7D32">58.1</td>
+  <td>
+    <div style="display:flex;align-items:center;gap:8px">
+      <div style="flex:1;background:#E8F5E9;border-radius:10px;height:12px;overflow:hidden">
+        <div style="width:58.1%;height:100%;background:#2E7D32;border-radius:10px"></div>
+      </div>
+      <span style="font-weight:700;color:#2E7D32;min-width:38px">58%</span>
+    </div>
+  </td>
+  <td><span class="badge" style="background:#6A1B9A">Básico</span></td>
+  <td style="color:#777;font-size:.85em">Prom: 61.0</td>
+</tr>
+<tr>
+  <td><b>🌍 Inglés</b></td>
+  <td style="font-weight:700;font-size:1.1em;color:#00695C">36.0</td>
+  <td>
+    <div style="display:flex;align-items:center;gap:8px">
+      <div style="flex:1;background:#E0F2F1;border-radius:10px;height:12px;overflow:hidden">
+        <div style="width:36.0%;height:100%;background:#00695C;border-radius:10px"></div>
+      </div>
+      <span style="font-weight:700;color:#00695C;min-width:38px">36%</span>
+    </div>
+  </td>
+  <td><span class="badge" style="background:#6A1B9A">Básico</span></td>
+  <td style="color:#777;font-size:.85em">Prom: 48.8</td>
+</tr>
+<tr>
+  <td><b>🌎 Sociales</b></td>
+  <td style="font-weight:700;font-size:1.1em;color:#B71C1C">90.0</td>
+  <td>
+    <div style="display:flex;align-items:center;gap:8px">
+      <div style="flex:1;background:#FFEBEE;border-radius:10px;height:12px;overflow:hidden">
+        <div style="width:90.0%;height:100%;background:#B71C1C;border-radius:10px"></div>
+      </div>
+      <span style="font-weight:700;color:#B71C1C;min-width:38px">90%</span>
+    </div>
+  </td>
+  <td><span class="badge" style="background:#6A1B9A">Básico</span></td>
+  <td style="color:#777;font-size:.85em">Prom: 82.0</td>
+</tr></tbody>
+      <tfoot><tr style="background:#E8F5E9">
+        <td colspan="1"><b>TOTAL ICFES</b></td>
+        <td colspan="1"><b style="font-size:1.2em;color:#1B5E20">308 / 500</b></td>
+        <td colspan="3"></td>
+      </tr></tfoot>
+    </table>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-title">🎯 Respuestas Correctas por Área</div>
+  <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(175px,1fr));gap:14px">
+    
+<div style="background:#f8fbff;border-radius:12px;padding:16px;border:2px solid #E3F2FD;text-align:center">
+  <div style="font-size:.82em;color:#555;margin-bottom:4px">📐 Matemáticas</div>
+  <div style="font-size:1.5em;font-weight:900;color:#1565C0">8/20</div>
+  <div style="font-size:1.2em;font-weight:700;color:#2E7D32">40.0 pts</div>
+  <div style="font-size:.8em;color:#e74c3c;font-weight:600">▼ 7.1 vs prom</div>
+</div>
+<div style="background:#f8fbff;border-radius:12px;padding:16px;border:2px solid #EDE7F6;text-align:center">
+  <div style="font-size:.82em;color:#555;margin-bottom:4px">📚 Lectura Crítica</div>
+  <div style="font-size:1.5em;font-weight:900;color:#6A1B9A">27/32</div>
+  <div style="font-size:1.2em;font-weight:700;color:#2E7D32">84.4 pts</div>
+  <div style="font-size:.8em;color:#27ae60;font-weight:600">▲ 0.6 vs prom</div>
+</div>
+<div style="background:#f8fbff;border-radius:12px;padding:16px;border:2px solid #E8F5E9;text-align:center">
+  <div style="font-size:.82em;color:#555;margin-bottom:4px">🔬 Ciencias Naturales</div>
+  <div style="font-size:1.5em;font-weight:900;color:#2E7D32">18/31</div>
+  <div style="font-size:1.2em;font-weight:700;color:#2E7D32">58.1 pts</div>
+  <div style="font-size:.8em;color:#e74c3c;font-weight:600">▼ 2.9 vs prom</div>
+</div>
+<div style="background:#f8fbff;border-radius:12px;padding:16px;border:2px solid #E0F2F1;text-align:center">
+  <div style="font-size:.82em;color:#555;margin-bottom:4px">🌍 Inglés</div>
+  <div style="font-size:1.5em;font-weight:900;color:#00695C">9/25</div>
+  <div style="font-size:1.2em;font-weight:700;color:#2E7D32">36.0 pts</div>
+  <div style="font-size:.8em;color:#e74c3c;font-weight:600">▼ 12.8 vs prom</div>
+</div>
+<div style="background:#f8fbff;border-radius:12px;padding:16px;border:2px solid #FFEBEE;text-align:center">
+  <div style="font-size:.82em;color:#555;margin-bottom:4px">🌎 Sociales</div>
+  <div style="font-size:1.5em;font-weight:900;color:#B71C1C">18/20</div>
+  <div style="font-size:1.2em;font-weight:700;color:#2E7D32">90.0 pts</div>
+  <div style="font-size:.8em;color:#27ae60;font-weight:600">▲ 8.0 vs prom</div>
+</div>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-title">💬 Orientación por Área</div>
+  
+<div style="background:#f8f9fa;border-radius:10px;padding:12px 14px;margin-bottom:8px;border-left:4px solid #1565C0">
+  <strong>📐 Matemáticas:</strong> Desempeño regular en Matemáticas. Te recomendamos repasar los temas.
+</div>
+<div style="background:#f8f9fa;border-radius:10px;padding:12px 14px;margin-bottom:8px;border-left:4px solid #6A1B9A">
+  <strong>📚 Lectura Crítica:</strong> ¡Excelente en Lectura Crítica! Sigue así, vas muy bien.
+</div>
+<div style="background:#f8f9fa;border-radius:10px;padding:12px 14px;margin-bottom:8px;border-left:4px solid #2E7D32">
+  <strong>🔬 Ciencias Naturales:</strong> Buen trabajo en Ciencias Naturales. Con más práctica mejorarás aún más.
+</div>
+<div style="background:#f8f9fa;border-radius:10px;padding:12px 14px;margin-bottom:8px;border-left:4px solid #00695C">
+  <strong>🌍 Inglés:</strong> Desempeño regular en Inglés. Te recomendamos repasar los temas.
+</div>
+<div style="background:#f8f9fa;border-radius:10px;padding:12px 14px;margin-bottom:8px;border-left:4px solid #B71C1C">
+  <strong>🌎 Sociales:</strong> ¡Excelente en Sociales! Sigue así, vas muy bien.
+</div>
+</div>
+
+
+<div class="card">
+  <div class="card-title">📐 Matemáticas — 8/20 correctas (40/100)</div>
+  <div style="overflow-x:auto">
+    <table>
+      <thead><tr><th>Pregunta</th><th>Tu respuesta</th><th>Correcta</th><th>Estado</th></tr></thead>
+      <tbody><tr style="background:#E8F5E920">
+  <td style="color:#555">P57</td>
+  <td style="font-weight:700">A</td>
+  <td style="font-weight:700;color:#1565C0">A</td>
+  <td><span style="color:#27ae60;font-weight:700">✓</span></td>
+</tr><tr style="background:#FFEBEE20">
+  <td style="color:#555">P58</td>
+  <td style="font-weight:700">C</td>
+  <td style="font-weight:700;color:#1565C0">A</td>
+  <td><span style="color:#e74c3c;font-weight:700">✗</span></td>
+</tr><tr style="background:#FFEBEE20">
+  <td style="color:#555">P59</td>
+  <td style="font-weight:700">B</td>
+  <td style="font-weight:700;color:#1565C0">A</td>
+  <td><span style="color:#e74c3c;font-weight:700">✗</span></td>
+</tr><tr style="background:#FFEBEE20">
+  <td style="color:#555">P60</td>
+  <td style="font-weight:700">D</td>
+  <td style="font-weight:700;color:#1565C0">A</td>
+  <td><span style="color:#e74c3c;font-weight:700">✗</span></td>
+</tr><tr style="background:#FFEBEE20">
+  <td style="color:#555">P61</td>
+  <td style="font-weight:700">B</td>
+  <td style="font-weight:700;color:#1565C0">A</td>
+  <td><span style="color:#e74c3c;font-weight:700">✗</span></td>
+</tr><tr style="background:#FFEBEE20">
+  <td style="color:#555">P62</td>
+  <td style="font-weight:700">B</td>
+  <td style="font-weight:700;color:#1565C0">A</td>
+  <td><span style="color:#e74c3c;font-weight:700">✗</span></td>
+</tr><tr style="background:#FFEBEE20">
+  <td style="color:#555">P63</td>
+  <td style="font-weight:700">B</td>
+  <td style="font-weight:700;color:#1565C0">C</td>
+  <td><span style="color:#e74c3c;font-weight:700">✗</span></td>
+</tr><tr style="background:#E8F5E920">
+  <td style="color:#555">P64</td>
+  <td style="font-weight:700">D</td>
+  <td style="font-weight:700;color:#1565C0">D</td>
+  <td><span style="color:#27ae60;font-weight:700">✓</span></td>
+</tr><tr style="background:#E8F5E920">
+  <td style="color:#555">P65</td>
+  <td style="font-weight:700">C</td>
+  <td style="font-weight:700;color:#1565C0">C</td>
+  <td><span style="color:#27ae60;font-weight:700">✓</span></td>
+</tr><tr style="background:#E8F5E920">
+  <td style="color:#555">P66</td>
+  <td style="font-weight:700">B</td>
+  <td style="font-weight:700;color:#1565C0">B</td>
+  <td><span style="color:#27ae60;font-weight:700">✓</span></td>
+</tr><tr style="background:#E8F5E920">
+  <td style="color:#555">P67</td>
+  <td style="font-weight:700">C</td>
+  <td style="font-weight:700;color:#1565C0">C</td>
+  <td><span style="color:#27ae60;font-weight:700">✓</span></td>
+</tr><tr style="background:#FFEBEE20">
+  <td style="color:#555">P68</td>
+  <td style="font-weight:700">A</td>
+  <td style="font-weight:700;color:#1565C0">C</td>
+  <td><span style="color:#e74c3c;font-weight:700">✗</span></td>
+</tr><tr style="background:#FFEBEE20">
+  <td style="color:#555">P69</td>
+  <td style="font-weight:700">BC</td>
+  <td style="font-weight:700;color:#1565C0">A</td>
+  <td><span style="color:#e74c3c;font-weight:700">✗</span></td>
+</tr><tr style="background:#FFEBEE20">
+  <td style="color:#555">P70</td>
+  <td style="font-weight:700">B</td>
+  <td style="font-weight:700;color:#1565C0">C</td>
+  <td><span style="color:#e74c3c;font-weight:700">✗</span></td>
+</tr><tr style="background:#E8F5E920">
+  <td style="color:#555">P71</td>
+  <td style="font-weight:700">B</td>
+  <td style="font-weight:700;color:#1565C0">B</td>
+  <td><span style="color:#27ae60;font-weight:700">✓</span></td>
+</tr><tr style="background:#FFEBEE20">
+  <td style="color:#555">P72</td>
+  <td style="font-weight:700">A</td>
+  <td style="font-weight:700;color:#1565C0">C</td>
+  <td><span style="color:#e74c3c;font-weight:700">✗</span></td>
+</tr><tr style="background:#FFEBEE20">
+  <td style="color:#555">P73</td>
+  <td style="font-weight:700">A</td>
+  <td style="font-weight:700;color:#1565C0">B</td>
+  <td><span style="color:#e74c3c;font-weight:700">✗</span></td>
+</tr><tr style="background:#FFEBEE20">
+  <td style="color:#555">P74</td>
+  <td style="font-weight:700">D</td>
+  <td style="font-weight:700;color:#1565C0">C</td>
+  <td><span style="color:#e74c3c;font-weight:700">✗</span></td>
+</tr><tr style="background:#E8F5E920">
+  <td style="color:#555">P75</td>
+  <td style="font-weight:700">B</td>
+  <td style="font-weight:700;color:#1565C0">B</td>
+  <td><span style="color:#27ae60;font-weight:700">✓</span></td>
+</tr><tr style="background:#E8F5E920">
+  <td style="color:#555">P76</td>
+  <td style="font-weight:700">A</td>
+  <td style="font-weight:700;color:#1565C0">A</td>
+  <td><span style="color:#27ae60;font-weight:700">✓</span></td>
+</tr></tbody>
+    </table>
+  </div>
+</div>
+<div class="card">
+  <div class="card-title">📚 Lectura Crítica — 27/32 correctas (84/100)</div>
+  <div style="overflow-x:auto">
+    <table>
+      <thead><tr><th>Pregunta</th><th>Tu respuesta</th><th>Correcta</th><th>Estado</th></tr></thead>
+      <tbody><tr style="background:#E8F5E920">
+  <td style="color:#555">P97</td>
+  <td style="font-weight:700">C</td>
+  <td style="font-weight:700;color:#6A1B9A">C</td>
+  <td><span style="color:#27ae60;font-weight:700">✓</span></td>
+</tr><tr style="background:#E8F5E920">
+  <td style="color:#555">P98</td>
+  <td style="font-weight:700">C</td>
+  <td style="font-weight:700;color:#6A1B9A">C</td>
+  <td><span style="color:#27ae60;font-weight:700">✓</span></td>
+</tr><tr style="background:#E8F5E920">
+  <td style="color:#555">P99</td>
+  <td style="font-weight:700">B</td>
+  <td style="font-weight:700;color:#6A1B9A">B</td>
+  <td><span style="color:#27ae60;font-weight:700">✓</span></td>
+</tr><tr style="background:#E8F5E920">
+  <td style="color:#555">P100</td>
+  <td style="font-weight:700">C</td>
+  <td style="font-weight:700;color:#6A1B9A">C</td>
+  <td><span style="color:#27ae60;font-weight:700">✓</span></td>
+</tr><tr style="background:#E8F5E920">
+  <td style="color:#555">P101</td>
+  <td style="font-weight:700">C</td>
+  <td style="font-weight:700;color:#6A1B9A">C</td>
+  <td><span style="color:#27ae60;font-weight:700">✓</span></td>
+</tr><tr style="background:#E8F5E920">
+  <td style="color:#555">P102</td>
+  <td style="font-weight:700">B</td>
+  <td style="font-weight:700;color:#6A1B9A">B</td>
+  <td><span style="color:#27ae60;font-weight:700">✓</span></td>
+</tr><tr style="background:#E8F5E920">
+  <td style="color:#555">P103</td>
+  <td style="font-weight:700">B</td>
+  <td style="font-weight:700;color:#6A1B9A">B</td>
+  <td><span style="color:#27ae60;font-weight:700">✓</span></td>
+</tr><tr style="background:#E8F5E920">
+  <td style="color:#555">P104</td>
+  <td style="font-weight:700">B</td>
+  <td style="font-weight:700;color:#6A1B9A">B</td>
+  <td><span style="color:#27ae60;font-weight:700">✓</span></td>
+</tr><tr style="background:#E8F5E920">
+  <td style="color:#555">P105</td>
+  <td style="font-weight:700">B</td>
+  <td style="font-weight:700;color:#6A1B9A">B</td>
+  <td><span style="color:#27ae60;font-weight:700">✓</span></td>
+</tr><tr style="background:#E8F5E920">
+  <td style="color:#555">P106</td>
+  <td style="font-weight:700">C</td>
+  <td style="font-weight:700;color:#6A1B9A">C</td>
+  <td><span style="color:#27ae60;font-weight:700">✓</span></td>
+</tr><tr style="background:#E8F5E920">
+  <td style="color:#555">P107</td>
+  <td style="font-weight:700">D</td>
+  <td style="font-weight:700;color:#6A1B9A">D</td>
+  <td><span style="color:#27ae60;font-weight:700">✓</span></td>
+</tr><tr style="background:#FFEBEE20">
+  <td style="color:#555">P108</td>
+  <td style="font-weight:700">D</td>
+  <td style="font-weight:700;color:#6A1B9A">B</td>
+  <td><span style="color:#e74c3c;font-weight:700">✗</span></td>
+</tr><tr style="background:#E8F5E920">
+  <td style="color:#555">P109</td>
+  <td style="font-weight:700">B</td>
+  <td style="font-weight:700;color:#6A1B9A">B</td>
+  <td><span style="color:#27ae60;font-weight:700">✓</span></td>
+</tr><tr style="background:#E8F5E920">
+  <td style="color:#555">P110</td>
+  <td style="font-weight:700">B</td>
+  <td style="font-weight:700;color:#6A1B9A">B</td>
+  <td><span style="color:#27ae60;font-weight:700">✓</span></td>
+</tr><tr style="background:#E8F5E920">
+  <td style="color:#555">P111</td>
+  <td style="font-weight:700">C</td>
+  <td style="font-weight:700;color:#6A1B9A">C</td>
+  <td><span style="color:#27ae60;font-weight:700">✓</span></td>
+</tr><tr style="background:#E8F5E920">
+  <td style="color:#555">P112</td>
+  <td style="font-weight:700">B</td>
+  <td style="font-weight:700;color:#6A1B9A">B</td>
+  <td><span style="color:#27ae60;font-weight:700">✓</span></td>
+</tr><tr style="background:#FFEBEE20">
+  <td style="color:#555">P113</td>
+  <td style="font-weight:700">C</td>
+  <td style="font-weight:700;color:#6A1B9A">B</td>
+  <td><span style="color:#e74c3c;font-weight:700">✗</span></td>
+</tr><tr style="background:#FFEBEE20">
+  <td style="color:#555">P114</td>
+  <td style="font-weight:700">C</td>
+  <td style="font-weight:700;color:#6A1B9A">B</td>
+  <td><span style="color:#e74c3c;font-weight:700">✗</span></td>
+</tr><tr style="background:#FFEBEE20">
+  <td style="color:#555">P115</td>
+  <td style="font-weight:700">B</td>
+  <td style="font-weight:700;color:#6A1B9A">C</td>
+  <td><span style="color:#e74c3c;font-weight:700">✗</span></td>
+</tr><tr style="background:#E8F5E920">
+  <td style="color:#555">P116</td>
+  <td style="font-weight:700">C</td>
+  <td style="font-weight:700;color:#6A1B9A">C</td>
+  <td><span style="color:#27ae60;font-weight:700">✓</span></td>
+</tr><tr style="background:#E8F5E920">
+  <td style="color:#555">P117</td>
+  <td style="font-weight:700">B</td>
+  <td style="font-weight:700;color:#6A1B9A">B</td>
+  <td><span style="color:#27ae60;font-weight:700">✓</span></td>
+</tr><tr style="background:#E8F5E920">
+  <td style="color:#555">P118</td>
+  <td style="font-weight:700">D</td>
+  <td style="font-weight:700;color:#6A1B9A">D</td>
+  <td><span style="color:#27ae60;font-weight:700">✓</span></td>
+</tr><tr style="background:#E8F5E920">
+  <td style="color:#555">P119</td>
+  <td style="font-weight:700">C</td>
+  <td style="font-weight:700;color:#6A1B9A">C</td>
+  <td><span style="color:#27ae60;font-weight:700">✓</span></td>
+</tr><tr style="background:#FFEBEE20">
+  <td style="color:#555">P120</td>
+  <td style="font-weight:700">A</td>
+  <td style="font-weight:700;color:#6A1B9A">B</td>
+  <td><span style="color:#e74c3c;font-weight:700">✗</span></td>
+</tr><tr style="background:#E8F5E920">
+  <td style="color:#555">P121</td>
+  <td style="font-weight:700">C</td>
+  <td style="font-weight:700;color:#6A1B9A">C</td>
+  <td><span style="color:#27ae60;font-weight:700">✓</span></td>
+</tr><tr style="background:#E8F5E920">
+  <td style="color:#555">P122</td>
+  <td style="font-weight:700">C</td>
+  <td style="font-weight:700;color:#6A1B9A">C</td>
+  <td><span style="color:#27ae60;font-weight:700">✓</span></td>
+</tr><tr style="background:#E8F5E920">
+  <td style="color:#555">P123</td>
+  <td style="font-weight:700">B</td>
+  <td style="font-weight:700;color:#6A1B9A">B</td>
+  <td><span style="color:#27ae60;font-weight:700">✓</span></td>
+</tr><tr style="background:#E8F5E920">
+  <td style="color:#555">P124</td>
+  <td style="font-weight:700">B</td>
+  <td style="font-weight:700;color:#6A1B9A">B</td>
+  <td><span style="color:#27ae60;font-weight:700">✓</span></td>
+</tr><tr style="background:#E8F5E920">
+  <td style="color:#555">P125</td>
+  <td style="font-weight:700">B</td>
+  <td style="font-weight:700;color:#6A1B9A">B</td>
+  <td><span style="color:#27ae60;font-weight:700">✓</span></td>
+</tr><tr style="background:#E8F5E920">
+  <td style="color:#555">P126</td>
+  <td style="font-weight:700">B</td>
+  <td style="font-weight:700;color:#6A1B9A">B</td>
+  <td><span style="color:#27ae60;font-weight:700">✓</span></td>
+</tr><tr style="background:#E8F5E920">
+  <td style="color:#555">P127</td>
+  <td style="font-weight:700">C</td>
+  <td style="font-weight:700;color:#6A1B9A">C</td>
+  <td><span style="color:#27ae60;font-weight:700">✓</span></td>
+</tr><tr style="background:#E8F5E920">
+  <td style="color:#555">P128</td>
+  <td style="font-weight:700">B</td>
+  <td style="font-weight:700;color:#6A1B9A">B</td>
+  <td><span style="color:#27ae60;font-weight:700">✓</span></td>
+</tr></tbody>
+    </table>
+  </div>
+</div>
+<div class="card">
+  <div class="card-title">🔬 Ciencias Naturales — 18/31 correctas (58/100)</div>
+  <div style="overflow-x:auto">
+    <table>
+      <thead><tr><th>Pregunta</th><th>Tu respuesta</th><th>Correcta</th><th>Estado</th></tr></thead>
+      <tbody><tr style="background:#E8F5E920">
+  <td style="color:#555">P1</td>
+  <td style="font-weight:700">D</td>
+  <td style="font-weight:700;color:#2E7D32">D</td>
+  <td><span style="color:#27ae60;font-weight:700">✓</span></td>
+</tr><tr style="background:#FFEBEE20">
+  <td style="color:#555">P2</td>
+  <td style="font-weight:700">A</td>
+  <td style="font-weight:700;color:#2E7D32">C</td>
+  <td><span style="color:#e74c3c;font-weight:700">✗</span></td>
+</tr><tr style="background:#E8F5E920">
+  <td style="color:#555">P3</td>
+  <td style="font-weight:700">C</td>
+  <td style="font-weight:700;color:#2E7D32">C</td>
+  <td><span style="color:#27ae60;font-weight:700">✓</span></td>
+</tr><tr style="background:#E8F5E920">
+  <td style="color:#555">P4</td>
+  <td style="font-weight:700">D</td>
+  <td style="font-weight:700;color:#2E7D32">D</td>
+  <td><span style="color:#27ae60;font-weight:700">✓</span></td>
+</tr><tr style="background:#FFEBEE20">
+  <td style="color:#555">P5</td>
+  <td style="font-weight:700">D</td>
+  <td style="font-weight:700;color:#2E7D32">B</td>
+  <td><span style="color:#e74c3c;font-weight:700">✗</span></td>
+</tr><tr style="background:#E8F5E920">
+  <td style="color:#555">P6</td>
+  <td style="font-weight:700">B</td>
+  <td style="font-weight:700;color:#2E7D32">B</td>
+  <td><span style="color:#27ae60;font-weight:700">✓</span></td>
+</tr><tr style="background:#FFEBEE20">
+  <td style="color:#555">P7</td>
+  <td style="font-weight:700">C</td>
+  <td style="font-weight:700;color:#2E7D32">A</td>
+  <td><span style="color:#e74c3c;font-weight:700">✗</span></td>
+</tr><tr style="background:#E8F5E920">
+  <td style="color:#555">P8</td>
+  <td style="font-weight:700">D</td>
+  <td style="font-weight:700;color:#2E7D32">D</td>
+  <td><span style="color:#27ae60;font-weight:700">✓</span></td>
+</tr><tr style="background:#FFEBEE20">
+  <td style="color:#555">P9</td>
+  <td style="font-weight:700">C</td>
+  <td style="font-weight:700;color:#2E7D32">B</td>
+  <td><span style="color:#e74c3c;font-weight:700">✗</span></td>
+</tr><tr style="background:#FFEBEE20">
+  <td style="color:#555">P10</td>
+  <td style="font-weight:700">A</td>
+  <td style="font-weight:700;color:#2E7D32">D</td>
+  <td><span style="color:#e74c3c;font-weight:700">✗</span></td>
+</tr><tr style="background:#FFEBEE20">
+  <td style="color:#555">P11</td>
+  <td style="font-weight:700">D</td>
+  <td style="font-weight:700;color:#2E7D32">B</td>
+  <td><span style="color:#e74c3c;font-weight:700">✗</span></td>
+</tr><tr style="background:#E8F5E920">
+  <td style="color:#555">P12</td>
+  <td style="font-weight:700">B</td>
+  <td style="font-weight:700;color:#2E7D32">B</td>
+  <td><span style="color:#27ae60;font-weight:700">✓</span></td>
+</tr><tr style="background:#E8F5E920">
+  <td style="color:#555">P13</td>
+  <td style="font-weight:700">C</td>
+  <td style="font-weight:700;color:#2E7D32">C</td>
+  <td><span style="color:#27ae60;font-weight:700">✓</span></td>
+</tr><tr style="background:#FFEBEE20">
+  <td style="color:#555">P14</td>
+  <td style="font-weight:700">B</td>
+  <td style="font-weight:700;color:#2E7D32">C</td>
+  <td><span style="color:#e74c3c;font-weight:700">✗</span></td>
+</tr><tr style="background:#FFEBEE20">
+  <td style="color:#555">P15</td>
+  <td style="font-weight:700">A</td>
+  <td style="font-weight:700;color:#2E7D32">C</td>
+  <td><span style="color:#e74c3c;font-weight:700">✗</span></td>
+</tr><tr style="background:#E8F5E920">
+  <td style="color:#555">P16</td>
+  <td style="font-weight:700">C</td>
+  <td style="font-weight:700;color:#2E7D32">C</td>
+  <td><span style="color:#27ae60;font-weight:700">✓</span></td>
+</tr><tr style="background:#FFEBEE20">
+  <td style="color:#555">P17</td>
+  <td style="font-weight:700">A</td>
+  <td style="font-weight:700;color:#2E7D32">C</td>
+  <td><span style="color:#e74c3c;font-weight:700">✗</span></td>
+</tr><tr style="background:#FFEBEE20">
+  <td style="color:#555">P18</td>
+  <td style="font-weight:700">A</td>
+  <td style="font-weight:700;color:#2E7D32">B</td>
+  <td><span style="color:#e74c3c;font-weight:700">✗</span></td>
+</tr><tr style="background:#E8F5E920">
+  <td style="color:#555">P19</td>
+  <td style="font-weight:700">B</td>
+  <td style="font-weight:700;color:#2E7D32">B</td>
+  <td><span style="color:#27ae60;font-weight:700">✓</span></td>
+</tr><tr style="background:#E8F5E920">
+  <td style="color:#555">P20</td>
+  <td style="font-weight:700">D</td>
+  <td style="font-weight:700;color:#2E7D32">D</td>
+  <td><span style="color:#27ae60;font-weight:700">✓</span></td>
+</tr><tr style="background:#FFEBEE20">
+  <td style="color:#555">P21</td>
+  <td style="font-weight:700">B</td>
+  <td style="font-weight:700;color:#2E7D32">A</td>
+  <td><span style="color:#e74c3c;font-weight:700">✗</span></td>
+</tr><tr style="background:#FFEBEE20">
+  <td style="color:#555">P22</td>
+  <td style="font-weight:700">A</td>
+  <td style="font-weight:700;color:#2E7D32">C</td>
+  <td><span style="color:#e74c3c;font-weight:700">✗</span></td>
+</tr><tr style="background:#E8F5E920">
+  <td style="color:#555">P23</td>
+  <td style="font-weight:700">C</td>
+  <td style="font-weight:700;color:#2E7D32">C</td>
+  <td><span style="color:#27ae60;font-weight:700">✓</span></td>
+</tr><tr style="background:#E8F5E920">
+  <td style="color:#555">P24</td>
+  <td style="font-weight:700">A</td>
+  <td style="font-weight:700;color:#2E7D32">A</td>
+  <td><span style="color:#27ae60;font-weight:700">✓</span></td>
+</tr><tr style="background:#E8F5E920">
+  <td style="color:#555">P25</td>
+  <td style="font-weight:700">B</td>
+  <td style="font-weight:700;color:#2E7D32">B</td>
+  <td><span style="color:#27ae60;font-weight:700">✓</span></td>
+</tr><tr style="background:#FFEBEE20">
+  <td style="color:#555">P26</td>
+  <td style="font-weight:700">A</td>
+  <td style="font-weight:700;color:#2E7D32">B</td>
+  <td><span style="color:#e74c3c;font-weight:700">✗</span></td>
+</tr><tr style="background:#E8F5E920">
+  <td style="color:#555">P27</td>
+  <td style="font-weight:700">C</td>
+  <td style="font-weight:700;color:#2E7D32">C</td>
+  <td><span style="color:#27ae60;font-weight:700">✓</span></td>
+</tr><tr style="background:#E8F5E920">
+  <td style="color:#555">P28</td>
+  <td style="font-weight:700">B</td>
+  <td style="font-weight:700;color:#2E7D32">B</td>
+  <td><span style="color:#27ae60;font-weight:700">✓</span></td>
+</tr><tr style="background:#E8F5E920">
+  <td style="color:#555">P29</td>
+  <td style="font-weight:700">B</td>
+  <td style="font-weight:700;color:#2E7D32">B</td>
+  <td><span style="color:#27ae60;font-weight:700">✓</span></td>
+</tr><tr style="background:#E8F5E920">
+  <td style="color:#555">P30</td>
+  <td style="font-weight:700">C</td>
+  <td style="font-weight:700;color:#2E7D32">C</td>
+  <td><span style="color:#27ae60;font-weight:700">✓</span></td>
+</tr><tr style="background:#E8F5E920">
+  <td style="color:#555">P31</td>
+  <td style="font-weight:700">B</td>
+  <td style="font-weight:700;color:#2E7D32">B</td>
+  <td><span style="color:#27ae60;font-weight:700">✓</span></td>
+</tr></tbody>
+    </table>
+  </div>
+</div>
+<div class="card">
+  <div class="card-title">🌍 Inglés — 9/25 correctas (36/100)</div>
+  <div style="overflow-x:auto">
+    <table>
+      <thead><tr><th>Pregunta</th><th>Tu respuesta</th><th>Correcta</th><th>Estado</th></tr></thead>
+      <tbody><tr style="background:#FFEBEE20">
+  <td style="color:#555">P32</td>
+  <td style="font-weight:700">D</td>
+  <td style="font-weight:700;color:#00695C">E</td>
+  <td><span style="color:#e74c3c;font-weight:700">✗</span></td>
+</tr><tr style="background:#FFEBEE20">
+  <td style="color:#555">P33</td>
+  <td style="font-weight:700">F</td>
+  <td style="font-weight:700;color:#00695C">C</td>
+  <td><span style="color:#e74c3c;font-weight:700">✗</span></td>
+</tr><tr style="background:#FFEBEE20">
+  <td style="color:#555">P34</td>
+  <td style="font-weight:700">G</td>
+  <td style="font-weight:700;color:#00695C">D</td>
+  <td><span style="color:#e74c3c;font-weight:700">✗</span></td>
+</tr><tr style="background:#E8F5E920">
+  <td style="color:#555">P35</td>
+  <td style="font-weight:700">B</td>
+  <td style="font-weight:700;color:#00695C">B</td>
+  <td><span style="color:#27ae60;font-weight:700">✓</span></td>
+</tr><tr style="background:#E8F5E920">
+  <td style="color:#555">P36</td>
+  <td style="font-weight:700">A</td>
+  <td style="font-weight:700;color:#00695C">A</td>
+  <td><span style="color:#27ae60;font-weight:700">✓</span></td>
+</tr><tr style="background:#E8F5E920">
+  <td style="color:#555">P37</td>
+  <td style="font-weight:700">C</td>
+  <td style="font-weight:700;color:#00695C">C</td>
+  <td><span style="color:#27ae60;font-weight:700">✓</span></td>
+</tr><tr style="background:#FFEBEE20">
+  <td style="color:#555">P38</td>
+  <td style="font-weight:700">C</td>
+  <td style="font-weight:700;color:#00695C">B</td>
+  <td><span style="color:#e74c3c;font-weight:700">✗</span></td>
+</tr><tr style="background:#E8F5E920">
+  <td style="color:#555">P39</td>
+  <td style="font-weight:700">A</td>
+  <td style="font-weight:700;color:#00695C">A</td>
+  <td><span style="color:#27ae60;font-weight:700">✓</span></td>
+</tr><tr style="background:#FFEBEE20">
+  <td style="color:#555">P40</td>
+  <td style="font-weight:700">C</td>
+  <td style="font-weight:700;color:#00695C">B</td>
+  <td><span style="color:#e74c3c;font-weight:700">✗</span></td>
+</tr><tr style="background:#FFEBEE20">
+  <td style="color:#555">P41</td>
+  <td style="font-weight:700">A</td>
+  <td style="font-weight:700;color:#00695C">C</td>
+  <td><span style="color:#e74c3c;font-weight:700">✗</span></td>
+</tr><tr style="background:#FFEBEE20">
+  <td style="color:#555">P42</td>
+  <td style="font-weight:700">B</td>
+  <td style="font-weight:700;color:#00695C">A</td>
+  <td><span style="color:#e74c3c;font-weight:700">✗</span></td>
+</tr><tr style="background:#FFEBEE20">
+  <td style="color:#555">P43</td>
+  <td style="font-weight:700">A</td>
+  <td style="font-weight:700;color:#00695C">B</td>
+  <td><span style="color:#e74c3c;font-weight:700">✗</span></td>
+</tr><tr style="background:#E8F5E920">
+  <td style="color:#555">P44</td>
+  <td style="font-weight:700">C</td>
+  <td style="font-weight:700;color:#00695C">C</td>
+  <td><span style="color:#27ae60;font-weight:700">✓</span></td>
+</tr><tr style="background:#E8F5E920">
+  <td style="color:#555">P45</td>
+  <td style="font-weight:700">B</td>
+  <td style="font-weight:700;color:#00695C">B</td>
+  <td><span style="color:#27ae60;font-weight:700">✓</span></td>
+</tr><tr style="background:#E8F5E920">
+  <td style="color:#555">P46</td>
+  <td style="font-weight:700">C</td>
+  <td style="font-weight:700;color:#00695C">C</td>
+  <td><span style="color:#27ae60;font-weight:700">✓</span></td>
+</tr><tr style="background:#FFEBEE20">
+  <td style="color:#555">P47</td>
+  <td style="font-weight:700">A</td>
+  <td style="font-weight:700;color:#00695C">B</td>
+  <td><span style="color:#e74c3c;font-weight:700">✗</span></td>
+</tr><tr style="background:#FFEBEE20">
+  <td style="color:#555">P48</td>
+  <td style="font-weight:700">C</td>
+  <td style="font-weight:700;color:#00695C">B</td>
+  <td><span style="color:#e74c3c;font-weight:700">✗</span></td>
+</tr><tr style="background:#FFEBEE20">
+  <td style="color:#555">P49</td>
+  <td style="font-weight:700">C</td>
+  <td style="font-weight:700;color:#00695C">B</td>
+  <td><span style="color:#e74c3c;font-weight:700">✗</span></td>
+</tr><tr style="background:#FFEBEE20">
+  <td style="color:#555">P50</td>
+  <td style="font-weight:700">A</td>
+  <td style="font-weight:700;color:#00695C">C</td>
+  <td><span style="color:#e74c3c;font-weight:700">✗</span></td>
+</tr><tr style="background:#E8F5E920">
+  <td style="color:#555">P51</td>
+  <td style="font-weight:700">B</td>
+  <td style="font-weight:700;color:#00695C">B</td>
+  <td><span style="color:#27ae60;font-weight:700">✓</span></td>
+</tr><tr style="background:#FFEBEE20">
+  <td style="color:#555">P52</td>
+  <td style="font-weight:700">A</td>
+  <td style="font-weight:700;color:#00695C">C</td>
+  <td><span style="color:#e74c3c;font-weight:700">✗</span></td>
+</tr><tr style="background:#FFEBEE20">
+  <td style="color:#555">P53</td>
+  <td style="font-weight:700">C</td>
+  <td style="font-weight:700;color:#00695C">D</td>
+  <td><span style="color:#e74c3c;font-weight:700">✗</span></td>
+</tr><tr style="background:#E8F5E920">
+  <td style="color:#555">P54</td>
+  <td style="font-weight:700">A</td>
+  <td style="font-weight:700;color:#00695C">A</td>
+  <td><span style="color:#27ae60;font-weight:700">✓</span></td>
+</tr><tr style="background:#FFEBEE20">
+  <td style="color:#555">P55</td>
+  <td style="font-weight:700">C</td>
+  <td style="font-weight:700;color:#00695C">A</td>
+  <td><span style="color:#e74c3c;font-weight:700">✗</span></td>
+</tr><tr style="background:#FFEBEE20">
+  <td style="color:#555">P56</td>
+  <td style="font-weight:700">D</td>
+  <td style="font-weight:700;color:#00695C">C</td>
+  <td><span style="color:#e74c3c;font-weight:700">✗</span></td>
+</tr></tbody>
+    </table>
+  </div>
+</div>
+<div class="card">
+  <div class="card-title">🌎 Sociales — 18/20 correctas (90/100)</div>
+  <div style="overflow-x:auto">
+    <table>
+      <thead><tr><th>Pregunta</th><th>Tu respuesta</th><th>Correcta</th><th>Estado</th></tr></thead>
+      <tbody><tr style="background:#E8F5E920">
+  <td style="color:#555">P77</td>
+  <td style="font-weight:700">B</td>
+  <td style="font-weight:700;color:#B71C1C">B</td>
+  <td><span style="color:#27ae60;font-weight:700">✓</span></td>
+</tr><tr style="background:#E8F5E920">
+  <td style="color:#555">P78</td>
+  <td style="font-weight:700">C</td>
+  <td style="font-weight:700;color:#B71C1C">C</td>
+  <td><span style="color:#27ae60;font-weight:700">✓</span></td>
+</tr><tr style="background:#E8F5E920">
+  <td style="color:#555">P79</td>
+  <td style="font-weight:700">B</td>
+  <td style="font-weight:700;color:#B71C1C">B</td>
+  <td><span style="color:#27ae60;font-weight:700">✓</span></td>
+</tr><tr style="background:#E8F5E920">
+  <td style="color:#555">P80</td>
+  <td style="font-weight:700">C</td>
+  <td style="font-weight:700;color:#B71C1C">C</td>
+  <td><span style="color:#27ae60;font-weight:700">✓</span></td>
+</tr><tr style="background:#E8F5E920">
+  <td style="color:#555">P81</td>
+  <td style="font-weight:700">B</td>
+  <td style="font-weight:700;color:#B71C1C">B</td>
+  <td><span style="color:#27ae60;font-weight:700">✓</span></td>
+</tr><tr style="background:#E8F5E920">
+  <td style="color:#555">P82</td>
+  <td style="font-weight:700">C</td>
+  <td style="font-weight:700;color:#B71C1C">C</td>
+  <td><span style="color:#27ae60;font-weight:700">✓</span></td>
+</tr><tr style="background:#FFEBEE20">
+  <td style="color:#555">P83</td>
+  <td style="font-weight:700">C</td>
+  <td style="font-weight:700;color:#B71C1C">D</td>
+  <td><span style="color:#e74c3c;font-weight:700">✗</span></td>
+</tr><tr style="background:#E8F5E920">
+  <td style="color:#555">P84</td>
+  <td style="font-weight:700">B</td>
+  <td style="font-weight:700;color:#B71C1C">B</td>
+  <td><span style="color:#27ae60;font-weight:700">✓</span></td>
+</tr><tr style="background:#E8F5E920">
+  <td style="color:#555">P85</td>
+  <td style="font-weight:700">C</td>
+  <td style="font-weight:700;color:#B71C1C">C</td>
+  <td><span style="color:#27ae60;font-weight:700">✓</span></td>
+</tr><tr style="background:#E8F5E920">
+  <td style="color:#555">P86</td>
+  <td style="font-weight:700">B</td>
+  <td style="font-weight:700;color:#B71C1C">B</td>
+  <td><span style="color:#27ae60;font-weight:700">✓</span></td>
+</tr><tr style="background:#FFEBEE20">
+  <td style="color:#555">P87</td>
+  <td style="font-weight:700">B</td>
+  <td style="font-weight:700;color:#B71C1C">C</td>
+  <td><span style="color:#e74c3c;font-weight:700">✗</span></td>
+</tr><tr style="background:#E8F5E920">
+  <td style="color:#555">P88</td>
+  <td style="font-weight:700">D</td>
+  <td style="font-weight:700;color:#B71C1C">D</td>
+  <td><span style="color:#27ae60;font-weight:700">✓</span></td>
+</tr><tr style="background:#E8F5E920">
+  <td style="color:#555">P89</td>
+  <td style="font-weight:700">D</td>
+  <td style="font-weight:700;color:#B71C1C">D</td>
+  <td><span style="color:#27ae60;font-weight:700">✓</span></td>
+</tr><tr style="background:#E8F5E920">
+  <td style="color:#555">P90</td>
+  <td style="font-weight:700">A</td>
+  <td style="font-weight:700;color:#B71C1C">A</td>
+  <td><span style="color:#27ae60;font-weight:700">✓</span></td>
+</tr><tr style="background:#E8F5E920">
+  <td style="color:#555">P91</td>
+  <td style="font-weight:700">D</td>
+  <td style="font-weight:700;color:#B71C1C">D</td>
+  <td><span style="color:#27ae60;font-weight:700">✓</span></td>
+</tr><tr style="background:#E8F5E920">
+  <td style="color:#555">P92</td>
+  <td style="font-weight:700">C</td>
+  <td style="font-weight:700;color:#B71C1C">C</td>
+  <td><span style="color:#27ae60;font-weight:700">✓</span></td>
+</tr><tr style="background:#E8F5E920">
+  <td style="color:#555">P93</td>
+  <td style="font-weight:700">D</td>
+  <td style="font-weight:700;color:#B71C1C">D</td>
+  <td><span style="color:#27ae60;font-weight:700">✓</span></td>
+</tr><tr style="background:#E8F5E920">
+  <td style="color:#555">P94</td>
+  <td style="font-weight:700">D</td>
+  <td style="font-weight:700;color:#B71C1C">D</td>
+  <td><span style="color:#27ae60;font-weight:700">✓</span></td>
+</tr><tr style="background:#E8F5E920">
+  <td style="color:#555">P95</td>
+  <td style="font-weight:700">B</td>
+  <td style="font-weight:700;color:#B71C1C">B</td>
+  <td><span style="color:#27ae60;font-weight:700">✓</span></td>
+</tr><tr style="background:#E8F5E920">
+  <td style="color:#555">P96</td>
+  <td style="font-weight:700">D</td>
+  <td style="font-weight:700;color:#B71C1C">D</td>
+  <td><span style="color:#27ae60;font-weight:700">✓</span></td>
+</tr></tbody>
+    </table>
+  </div>
+</div>
+
+<div style="text-align:center;margin-top:30px;padding-bottom:24px">
+  <button onclick="window.print()" style="background:#2E7D32;color:white;border:none;padding:12px 28px;
+    border-radius:10px;cursor:pointer;font-size:1em;font-weight:700;box-shadow:0 4px 15px rgba(46,125,50,.3)">
+    🖨️ Imprimir / Guardar PDF
+  </button>
+  <div style="margin-top:12px;color:#888;font-size:.85em">Tercer Simulacro PEFA 2026 · CESUM Grado 11°</div>
+  <div style="font-weight:700;color:#2E7D32;margin-top:4px">Diseñado por Froylan Jiménez</div>
+</div>
+</div>
+</body>
+</html>

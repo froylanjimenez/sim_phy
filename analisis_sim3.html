@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Análisis Tercer Simulacro CESUM 2026</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:'Segoe UI',Tahoma,Geneva,Verdana,sans-serif;background:linear-gradient(135deg,#1B5E20,#2E7D32);min-height:100vh;padding:20px}
+.container{max-width:1200px;margin:0 auto}
+.header{background:white;border-radius:20px;padding:40px;margin-bottom:24px;text-align:center;
+  box-shadow:0 10px 40px rgba(0,0,0,.2)}
+.header h1{font-size:2.2em;font-weight:900;color:#1B5E20;margin-bottom:8px}
+.header .sub{color:#7f8c8d;font-size:1em;margin-bottom:6px}
+.header .date{color:#27ae60;font-weight:700}
+.card{background:white;border-radius:16px;padding:28px;margin-bottom:24px;box-shadow:0 4px 20px rgba(0,0,0,.08)}
+.card-title{font-size:1.3em;font-weight:800;color:#1B5E20;margin-bottom:20px;
+  padding-bottom:12px;border-bottom:3px solid #E8F5E9}
+.stat-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;margin-bottom:24px}
+.stat-box{border-radius:14px;padding:20px;text-align:center}
+.stat-num{font-size:2.8em;font-weight:900;line-height:1}
+.stat-lbl{font-size:.8em;color:#666;margin-top:6px;font-weight:600;text-transform:uppercase}
+.areas-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px}
+table{width:100%;border-collapse:collapse;font-size:.92em}
+th{background:#2E7D32;color:white;padding:12px;text-align:left}
+td{padding:10px;border-bottom:1px solid #f0f0f0}
+tr:hover td{background:#f8f9fa}
+.badge{display:inline-block;padding:4px 12px;border-radius:12px;font-size:.82em;font-weight:700}
+.section-divider{background:linear-gradient(135deg,#1B5E20,#2E7D32);color:white;
+  border-radius:14px;padding:18px 24px;margin:24px 0;font-size:1.3em;font-weight:800}
+@media(max-width:600px){.stat-num{font-size:2em}}
+</style>
+</head>
+<body>
+<div class="container">
+
+<div class="header">
+  <div style="font-size:3em;margin-bottom:12px">📊</div>
+  <h1>Análisis General — Tercer Simulacro</h1>
+  <div class="sub">Concentración Educativa del Sur de Montelíbano · CESUM · Grado 11°</div>
+  <div class="date">PEFA 2026 · Abril 2026 | Comparación Simulacro 2 vs Simulacro 3</div>
+</div>
+
+<div class="card">
+  <div class="card-title">🏁 Resumen General — Simulacro 3</div>
+  <div class="stat-grid">
+    <div class="stat-box" style="background:#E8F5E9">
+      <div class="stat-num" style="color:#1B5E20">159</div>
+      <div class="stat-lbl">Estudiantes Evaluados</div>
+    </div>
+    <div class="stat-box" style="background:#E3F2FD">
+      <div class="stat-num" style="color:#1565C0">322.8</div>
+      <div class="stat-lbl">Promedio ICFES Sim 3</div>
+    </div>
+    <div class="stat-box" style="background:#EDE7F6">
+      <div class="stat-num" style="color:#6A1B9A">257.4</div>
+      <div class="stat-lbl">Promedio ICFES Sim 2</div>
+    </div>
+    <div class="stat-box" style="background:#E8F5E9">
+      <div class="stat-num" style="color:#27ae60">▲ 65.4</div>
+      <div class="stat-lbl">Variación de Promedio</div>
+    </div>
+    <div class="stat-box" style="background:#FFF3E0">
+      <div class="stat-num" style="color:#E65100">460</div>
+      <div class="stat-lbl">Puntaje Máximo Sim 3</div>
+    </div>
+    <div class="stat-box" style="background:#FFEBEE">
+      <div class="stat-num" style="color:#B71C1C">192</div>
+      <div class="stat-lbl">Puntaje Mínimo Sim 3</div>
+    </div>
+  </div>
+
+  <div style="background:#f8f9fa;border-radius:12px;padding:20px">
+    <table>
+      <thead><tr><th>Indicador</th><th>Simulacro 2</th><th>Simulacro 3</th><th>Diferencia</th></tr></thead>
+      <tbody>
+        <tr><td><b>Promedio ICFES (0-500)</b></td>
+          <td style="font-weight:700;color:#1565C0">257.4</td>
+          <td style="font-weight:700;color:#2E7D32">322.8</td>
+          <td style="font-weight:800;color:#27ae60">▲ 65.4</td></tr>
+        <tr><td><b>Puntaje máximo</b></td>
+          <td>378</td><td>460</td>
+          <td style="color:#27ae60">
+            ▲ 82</td></tr>
+        <tr><td><b>Puntaje mínimo</b></td>
+          <td>131</td><td>192</td>
+          <td style="color:#27ae60">
+            ▲ 61</td></tr>
+        <tr><td><b>Estudiantes evaluados</b></td>
+          <td>175</td><td>159</td><td>—</td></tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<div class="section-divider">📐 Análisis por Área — Comparación Sim 2 vs Sim 3</div>
+
+<div class="card">
+  <div class="card-title">📊 Promedios por Área (0-100 puntos)</div>
+  <div class="areas-grid">
+<div style="background:white;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,.08);
+  border-top:5px solid #1565C0">
+  <div style="font-size:1.3em;margin-bottom:4px">📐</div>
+  <div style="font-size:1.1em;font-weight:700;color:#1565C0;margin-bottom:16px">Matemáticas</div>
+  <div style="font-size:.8em;color:#888;margin-bottom:4px">Simulacro 2 · 38.7/100</div>
+  <div style="background:#eee;border-radius:6px;height:10px;margin-bottom:12px;overflow:hidden">
+    <div style="width:38.7%;height:100%;background:#1565C0;border-radius:6px"></div></div>
+  <div style="font-size:.8em;color:#888;margin-bottom:4px">Simulacro 3 · 47.1/100</div>
+  <div style="background:#eee;border-radius:6px;height:10px;margin-bottom:12px;overflow:hidden">
+    <div style="width:47.1%;height:100%;background:#1565C0;border-radius:6px"></div></div>
+  <div style="font-size:1.1em;font-weight:800;color:#27ae60;text-align:center;margin-top:8px">▲ +8.4 pts</div>
+</div>
+<div style="background:white;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,.08);
+  border-top:5px solid #6A1B9A">
+  <div style="font-size:1.3em;margin-bottom:4px">📚</div>
+  <div style="font-size:1.1em;font-weight:700;color:#6A1B9A;margin-bottom:16px">Lectura Crítica</div>
+  <div style="font-size:.8em;color:#888;margin-bottom:4px">Simulacro 2 · 62.4/100</div>
+  <div style="background:#eee;border-radius:6px;height:10px;margin-bottom:12px;overflow:hidden">
+    <div style="width:62.4%;height:100%;background:#1565C0;border-radius:6px"></div></div>
+  <div style="font-size:.8em;color:#888;margin-bottom:4px">Simulacro 3 · 83.8/100</div>
+  <div style="background:#eee;border-radius:6px;height:10px;margin-bottom:12px;overflow:hidden">
+    <div style="width:83.8%;height:100%;background:#6A1B9A;border-radius:6px"></div></div>
+  <div style="font-size:1.1em;font-weight:800;color:#27ae60;text-align:center;margin-top:8px">▲ +21.39 pts</div>
+</div>
+<div style="background:white;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,.08);
+  border-top:5px solid #2E7D32">
+  <div style="font-size:1.3em;margin-bottom:4px">🔬</div>
+  <div style="font-size:1.1em;font-weight:700;color:#2E7D32;margin-bottom:16px">Ciencias Naturales</div>
+  <div style="font-size:.8em;color:#888;margin-bottom:4px">Simulacro 2 · 41.6/100</div>
+  <div style="background:#eee;border-radius:6px;height:10px;margin-bottom:12px;overflow:hidden">
+    <div style="width:41.6%;height:100%;background:#1565C0;border-radius:6px"></div></div>
+  <div style="font-size:.8em;color:#888;margin-bottom:4px">Simulacro 3 · 61.0/100</div>
+  <div style="background:#eee;border-radius:6px;height:10px;margin-bottom:12px;overflow:hidden">
+    <div style="width:61.0%;height:100%;background:#2E7D32;border-radius:6px"></div></div>
+  <div style="font-size:1.1em;font-weight:800;color:#27ae60;text-align:center;margin-top:8px">▲ +19.41 pts</div>
+</div>
+<div style="background:white;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,.08);
+  border-top:5px solid #00695C">
+  <div style="font-size:1.3em;margin-bottom:4px">🌍</div>
+  <div style="font-size:1.1em;font-weight:700;color:#00695C;margin-bottom:16px">Inglés</div>
+  <div style="font-size:.8em;color:#888;margin-bottom:4px">Simulacro 2 · 46.4/100</div>
+  <div style="background:#eee;border-radius:6px;height:10px;margin-bottom:12px;overflow:hidden">
+    <div style="width:46.4%;height:100%;background:#1565C0;border-radius:6px"></div></div>
+  <div style="font-size:.8em;color:#888;margin-bottom:4px">Simulacro 3 · 48.8/100</div>
+  <div style="background:#eee;border-radius:6px;height:10px;margin-bottom:12px;overflow:hidden">
+    <div style="width:48.8%;height:100%;background:#00695C;border-radius:6px"></div></div>
+  <div style="font-size:1.1em;font-weight:800;color:#27ae60;text-align:center;margin-top:8px">▲ +2.41 pts</div>
+</div>
+<div style="background:white;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,.08);
+  border-top:5px solid #B71C1C">
+  <div style="font-size:1.3em;margin-bottom:4px">🌎</div>
+  <div style="font-size:1.1em;font-weight:700;color:#B71C1C;margin-bottom:16px">Sociales</div>
+  <div style="font-size:.8em;color:#888;margin-bottom:4px">Simulacro 2 · 68.2/100</div>
+  <div style="background:#eee;border-radius:6px;height:10px;margin-bottom:12px;overflow:hidden">
+    <div style="width:68.2%;height:100%;background:#1565C0;border-radius:6px"></div></div>
+  <div style="font-size:.8em;color:#888;margin-bottom:4px">Simulacro 3 · 82.0/100</div>
+  <div style="background:#eee;border-radius:6px;height:10px;margin-bottom:12px;overflow:hidden">
+    <div style="width:82.0%;height:100%;background:#B71C1C;border-radius:6px"></div></div>
+  <div style="font-size:1.1em;font-weight:800;color:#27ae60;text-align:center;margin-top:8px">▲ +13.78 pts</div>
+</div></div>
+</div>
+
+<div class="card">
+  <div class="card-title">📋 Tabla Comparativa por Área</div>
+  <div style="overflow-x:auto">
+    <table>
+      <thead><tr><th>Área</th><th>Sim 2 Prom</th><th>Sim 3 Prom</th><th>Variación</th><th>Área más fuerte</th></tr></thead>
+      <tbody>
+        <tr>
+          <td><b>📐 Matemáticas</b></td>
+          <td style="font-weight:700;color:#1565C0">38.7/100</td>
+          <td style="font-weight:700;color:#2E7D32">47.1/100</td>
+          <td style="font-weight:800;color:#27ae60">
+            ▲ 8.4</td>
+          <td>🟢 Sim 3</td>
+        </tr><tr>
+          <td><b>📚 Lectura Crítica</b></td>
+          <td style="font-weight:700;color:#1565C0">62.4/100</td>
+          <td style="font-weight:700;color:#2E7D32">83.8/100</td>
+          <td style="font-weight:800;color:#27ae60">
+            ▲ 21.4</td>
+          <td>🟢 Sim 3</td>
+        </tr><tr>
+          <td><b>🔬 Ciencias Naturales</b></td>
+          <td style="font-weight:700;color:#1565C0">41.6/100</td>
+          <td style="font-weight:700;color:#2E7D32">61.0/100</td>
+          <td style="font-weight:800;color:#27ae60">
+            ▲ 19.4</td>
+          <td>🟢 Sim 3</td>
+        </tr><tr>
+          <td><b>🌍 Inglés</b></td>
+          <td style="font-weight:700;color:#1565C0">46.4/100</td>
+          <td style="font-weight:700;color:#2E7D32">48.8/100</td>
+          <td style="font-weight:800;color:#27ae60">
+            ▲ 2.4</td>
+          <td>🟢 Sim 3</td>
+        </tr><tr>
+          <td><b>🌎 Sociales</b></td>
+          <td style="font-weight:700;color:#1565C0">68.2/100</td>
+          <td style="font-weight:700;color:#2E7D32">82.0/100</td>
+          <td style="font-weight:800;color:#27ae60">
+            ▲ 13.8</td>
+          <td>🟢 Sim 3</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
+<div class="section-divider">👥 Distribución de Estudiantes</div>
+
+<div class="card">
+  <div class="card-title">📊 Grupos de Rendimiento — Simulacro 3</div>
+  <div style="overflow-x:auto">
+    <table>
+      <thead><tr><th>Grupo</th><th>Nivel</th><th>Estudiantes</th><th>Promedio ICFES</th></tr></thead>
+      <tbody><tr style="background:#FFF3E050">
+  <td><span style="background:#E65100;color:white;padding:2px 10px;border-radius:10px;font-weight:700">
+    🏆 Grupo 1</span></td>
+  <td style="font-weight:700">Elite</td>
+  <td style="text-align:center">30</td>
+  <td style="font-weight:800;color:#E65100">401.0 / 500</td>
+</tr><tr style="background:#E3F2FD50">
+  <td><span style="background:#1565C0;color:white;padding:2px 10px;border-radius:10px;font-weight:700">
+    ⭐ Grupo 2</span></td>
+  <td style="font-weight:700">Avanzado</td>
+  <td style="text-align:center">33</td>
+  <td style="font-weight:800;color:#1565C0">350.7 / 500</td>
+</tr><tr style="background:#E8F5E950">
+  <td><span style="background:#2E7D32;color:white;padding:2px 10px;border-radius:10px;font-weight:700">
+    💪 Grupo 3</span></td>
+  <td style="font-weight:700">Intermedio</td>
+  <td style="text-align:center">32</td>
+  <td style="font-weight:800;color:#2E7D32">322.7 / 500</td>
+</tr><tr style="background:#EDE7F650">
+  <td><span style="background:#6A1B9A;color:white;padding:2px 10px;border-radius:10px;font-weight:700">
+    📖 Grupo 4</span></td>
+  <td style="font-weight:700">Básico</td>
+  <td style="text-align:center">32</td>
+  <td style="font-weight:800;color:#6A1B9A">295.3 / 500</td>
+</tr><tr style="background:#FFEBEE50">
+  <td><span style="background:#B71C1C;color:white;padding:2px 10px;border-radius:10px;font-weight:700">
+    🌱 Grupo 5</span></td>
+  <td style="font-weight:700">En Proceso</td>
+  <td style="text-align:center">32</td>
+  <td style="font-weight:800;color:#B71C1C">248.2 / 500</td>
+</tr></tbody>
+    </table>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-title">📈 Distribución por Rangos de Puntaje</div>
+  <div style="overflow-x:auto">
+    <table>
+      <thead><tr><th>Rango ICFES</th><th>Simulacro 2</th><th>Simulacro 3</th></tr></thead>
+      <tbody><tr>
+  <td><span style="background:#e74c3c;color:white;padding:2px 10px;border-radius:10px;font-size:.85em">< 100</span></td>
+  <td style="text-align:center">0 <span style="color:#888;font-size:.85em">(0.0%)</span></td>
+  <td style="text-align:center">0 <span style="color:#888;font-size:.85em">(0.0%)</span></td>
+</tr><tr>
+  <td><span style="background:#e67e22;color:white;padding:2px 10px;border-radius:10px;font-size:.85em">100-149</span></td>
+  <td style="text-align:center">4 <span style="color:#888;font-size:.85em">(2.3%)</span></td>
+  <td style="text-align:center">0 <span style="color:#888;font-size:.85em">(0.0%)</span></td>
+</tr><tr>
+  <td><span style="background:#f1c40f;color:white;padding:2px 10px;border-radius:10px;font-size:.85em">150-199</span></td>
+  <td style="text-align:center">19 <span style="color:#888;font-size:.85em">(10.9%)</span></td>
+  <td style="text-align:center">1 <span style="color:#888;font-size:.85em">(0.6%)</span></td>
+</tr><tr>
+  <td><span style="background:#27ae60;color:white;padding:2px 10px;border-radius:10px;font-size:.85em">200-249</span></td>
+  <td style="text-align:center">54 <span style="color:#888;font-size:.85em">(30.9%)</span></td>
+  <td style="text-align:center">13 <span style="color:#888;font-size:.85em">(8.2%)</span></td>
+</tr><tr>
+  <td><span style="background:#2980b9;color:white;padding:2px 10px;border-radius:10px;font-size:.85em">250-299</span></td>
+  <td style="text-align:center">60 <span style="color:#888;font-size:.85em">(34.3%)</span></td>
+  <td style="text-align:center">36 <span style="color:#888;font-size:.85em">(22.6%)</span></td>
+</tr><tr>
+  <td><span style="background:#8e44ad;color:white;padding:2px 10px;border-radius:10px;font-size:.85em">≥ 300</span></td>
+  <td style="text-align:center">38 <span style="color:#888;font-size:.85em">(21.7%)</span></td>
+  <td style="text-align:center">109 <span style="color:#888;font-size:.85em">(68.6%)</span></td>
+</tr></tbody>
+    </table>
+  </div>
+</div>
+
+<div class="section-divider">🏆 Top 10 — Simulacro 3</div>
+
+<div class="card">
+  <div class="card-title">🥇 Los 10 Mejores Puntajes</div>
+  <table>
+    <thead><tr><th>Posición</th><th>Estudiante</th><th>ICFES</th><th>Grupo</th></tr></thead>
+    <tbody><tr>
+  <td style="font-weight:700;color:#2E7D32">#1</td>
+  <td style="font-weight:700">JUSTIN TIRADO GARAY</td>
+  <td style="font-weight:800;color:#1B5E20">460</td>
+  <td>🏆 Grupo 1</td>
+</tr><tr>
+  <td style="font-weight:700;color:#2E7D32">#2</td>
+  <td style="font-weight:700">KEVIN DAVID MEJIA HEREDIA</td>
+  <td style="font-weight:800;color:#1B5E20">458</td>
+  <td>🏆 Grupo 1</td>
+</tr><tr>
+  <td style="font-weight:700;color:#2E7D32">#3</td>
+  <td style="font-weight:700">DAYLIS PEREZ PADILLA</td>
+  <td style="font-weight:800;color:#1B5E20">437</td>
+  <td>🏆 Grupo 1</td>
+</tr><tr>
+  <td style="font-weight:700;color:#2E7D32">#4</td>
+  <td style="font-weight:700">SEBASTIAN RUIZ MONTERROZA</td>
+  <td style="font-weight:800;color:#1B5E20">430</td>
+  <td>🏆 Grupo 1</td>
+</tr><tr>
+  <td style="font-weight:700;color:#2E7D32">#5</td>
+  <td style="font-weight:700">VALERY GARCES MENDOZA</td>
+  <td style="font-weight:800;color:#1B5E20">430</td>
+  <td>🏆 Grupo 1</td>
+</tr><tr>
+  <td style="font-weight:700;color:#2E7D32">#6</td>
+  <td style="font-weight:700">YERMAN YAIR RUIZ GRANADOS</td>
+  <td style="font-weight:800;color:#1B5E20">424</td>
+  <td>🏆 Grupo 1</td>
+</tr><tr>
+  <td style="font-weight:700;color:#2E7D32">#7</td>
+  <td style="font-weight:700">YEHIDER VILLORINA</td>
+  <td style="font-weight:800;color:#1B5E20">419</td>
+  <td>🏆 Grupo 1</td>
+</tr><tr>
+  <td style="font-weight:700;color:#2E7D32">#8</td>
+  <td style="font-weight:700">STIVEN DARIO CALI ESTRADA</td>
+  <td style="font-weight:800;color:#1B5E20">417</td>
+  <td>🏆 Grupo 1</td>
+</tr><tr>
+  <td style="font-weight:700;color:#2E7D32">#9</td>
+  <td style="font-weight:700">MARIA JOSE VILLEGAS HERRERA</td>
+  <td style="font-weight:800;color:#1B5E20">414</td>
+  <td>🏆 Grupo 1</td>
+</tr><tr>
+  <td style="font-weight:700;color:#2E7D32">#10</td>
+  <td style="font-weight:700">MELANI ALEJANDRA MALDONADO VILLALBA</td>
+  <td style="font-weight:800;color:#1B5E20">414</td>
+  <td>🏆 Grupo 1</td>
+</tr></tbody>
+  </table>
+</div>
+
+<div class="section-divider">🔍 Análisis por Área — Detalle</div>
+
+<div class="card">
+  <div class="card-title">💡 Interpretación de Resultados</div>
+  
+  <div style="border-left:5px solid #1565C0;border-radius:0 10px 10px 0;
+    padding:14px 18px;margin-bottom:14px;background:#E3F2FD60">
+    <div style="font-weight:700;font-size:1.1em;color:#1565C0;margin-bottom:6px">
+      📐 Matemáticas</div>
+    <div style="font-size:.9em;color:#555;line-height:1.6">
+      Sim 2: <b>38.7</b> | Sim 3: <b style="color:#1565C0">47.1</b>
+      &nbsp;|&nbsp; Variación: <b style="color:#27ae60">
+        ▲ 8.4 pts</b>
+      <br>✅ <em>Mejora notable con respecto al simulacro anterior. Mantener estrategia de estudio.</em>
+    </div>
+  </div>
+  <div style="border-left:5px solid #6A1B9A;border-radius:0 10px 10px 0;
+    padding:14px 18px;margin-bottom:14px;background:#EDE7F660">
+    <div style="font-weight:700;font-size:1.1em;color:#6A1B9A;margin-bottom:6px">
+      📚 Lectura Crítica</div>
+    <div style="font-size:.9em;color:#555;line-height:1.6">
+      Sim 2: <b>62.4</b> | Sim 3: <b style="color:#6A1B9A">83.8</b>
+      &nbsp;|&nbsp; Variación: <b style="color:#27ae60">
+        ▲ 21.4 pts</b>
+      <br>✅ <em>Mejora notable con respecto al simulacro anterior. Mantener estrategia de estudio.</em>
+    </div>
+  </div>
+  <div style="border-left:5px solid #2E7D32;border-radius:0 10px 10px 0;
+    padding:14px 18px;margin-bottom:14px;background:#E8F5E960">
+    <div style="font-weight:700;font-size:1.1em;color:#2E7D32;margin-bottom:6px">
+      🔬 Ciencias Naturales</div>
+    <div style="font-size:.9em;color:#555;line-height:1.6">
+      Sim 2: <b>41.6</b> | Sim 3: <b style="color:#2E7D32">61.0</b>
+      &nbsp;|&nbsp; Variación: <b style="color:#27ae60">
+        ▲ 19.4 pts</b>
+      <br>✅ <em>Mejora notable con respecto al simulacro anterior. Mantener estrategia de estudio.</em>
+    </div>
+  </div>
+  <div style="border-left:5px solid #00695C;border-radius:0 10px 10px 0;
+    padding:14px 18px;margin-bottom:14px;background:#E0F2F160">
+    <div style="font-weight:700;font-size:1.1em;color:#00695C;margin-bottom:6px">
+      🌍 Inglés</div>
+    <div style="font-size:.9em;color:#555;line-height:1.6">
+      Sim 2: <b>46.4</b> | Sim 3: <b style="color:#00695C">48.8</b>
+      &nbsp;|&nbsp; Variación: <b style="color:#27ae60">
+        ▲ 2.4 pts</b>
+      <br>✅ <em>Mejora notable con respecto al simulacro anterior. Mantener estrategia de estudio.</em>
+    </div>
+  </div>
+  <div style="border-left:5px solid #B71C1C;border-radius:0 10px 10px 0;
+    padding:14px 18px;margin-bottom:14px;background:#FFEBEE60">
+    <div style="font-weight:700;font-size:1.1em;color:#B71C1C;margin-bottom:6px">
+      🌎 Sociales</div>
+    <div style="font-size:.9em;color:#555;line-height:1.6">
+      Sim 2: <b>68.2</b> | Sim 3: <b style="color:#B71C1C">82.0</b>
+      &nbsp;|&nbsp; Variación: <b style="color:#27ae60">
+        ▲ 13.8 pts</b>
+      <br>✅ <em>Mejora notable con respecto al simulacro anterior. Mantener estrategia de estudio.</em>
+    </div>
+  </div>
+</div>
+
+<div style="text-align:center;margin-top:20px;padding-bottom:24px;color:rgba(255,255,255,.8);font-size:.9em">
+  Análisis generado automáticamente · CESUM 2026 · Grado 11°<br>
+  <strong style="color:white">Diseñado por Froylan Jiménez</strong>
+</div>
+
+</div>
+</body>
+</html>
