@@ -500,10 +500,18 @@
             <span class="tag">2026 · Abr</span>
         </button>
     </div>
-    <div style="text-align:center;margin-top:-10px;margin-bottom:16px">
+    <div style="text-align:center;margin-top:-10px;margin-bottom:16px;display:flex;justify-content:center;gap:14px;flex-wrap:wrap">
         <button onclick="abrirModalClave()" style="background:none;border:none;color:#27ae60;
           font-size:12px;cursor:pointer;text-decoration:underline;font-weight:600;padding:4px 8px">
             🔒 Ver Notas Finales I Periodo
+        </button>
+        <button id="btnAnalisisDocentes" onclick="abrirModalAnalisis()" style="display:none;
+          background:linear-gradient(135deg,#1B5E20,#2E7D32);color:white;border:none;
+          font-size:12px;font-weight:700;cursor:pointer;padding:6px 14px;border-radius:20px;
+          box-shadow:0 3px 10px rgba(27,94,32,.3);transition:all .2s"
+          onmouseover="this.style.transform='translateY(-1px)'"
+          onmouseout="this.style.transform='none'">
+            📥 Descargar Análisis por Área
         </button>
     </div>
 
@@ -533,29 +541,46 @@
 
     <div class="results" id="results"></div>
 
-    <!-- ── SECCIÓN DOCENTES TERCER SIMULACRO ── -->
-    <div id="docentesSection" style="display:none;margin-top:28px;animation:fadeIn .4s ease-out">
-      <div style="display:flex;align-items:center;gap:10px;margin-bottom:14px;
-           padding:14px 18px;background:linear-gradient(135deg,#1B5E20,#2E7D32);
-           border-radius:14px;color:white">
-        <div style="font-size:1.8em">📊</div>
-        <div>
-          <div style="font-weight:700;font-size:1.05em">Análisis por Área — Docentes</div>
-          <div style="font-size:.82em;opacity:.85">Escribe el nombre de tu área para ver y descargar el análisis</div>
+    <!-- ── MODAL ANÁLISIS DOCENTES ── -->
+    <div class="modal-overlay" id="modalAnalisis">
+      <div style="background:white;border-radius:20px;padding:28px 26px;width:94%;max-width:480px;
+           max-height:88vh;overflow-y:auto;box-shadow:0 24px 60px rgba(0,0,0,.35);
+           animation:slideIn .3s ease-out">
+        <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:18px">
+          <div style="display:flex;align-items:center;gap:10px">
+            <div style="background:linear-gradient(135deg,#1B5E20,#2E7D32);color:white;
+                 width:42px;height:42px;border-radius:12px;display:flex;align-items:center;
+                 justify-content:center;font-size:1.3em;flex-shrink:0">📊</div>
+            <div>
+              <div style="font-weight:800;font-size:1.05em;color:#2c3e50">Análisis por Área</div>
+              <div style="font-size:.78em;color:#7f8c8d">Tercer Simulacro PEFA 2026</div>
+            </div>
+          </div>
+          <span onclick="cerrarModalAnalisis()"
+                style="font-size:1.5em;cursor:pointer;color:#aaa;line-height:1"
+                onmouseover="this.style.color='#555'" onmouseout="this.style.color='#aaa'">✕</span>
+        </div>
+
+        <div style="position:relative;margin-bottom:14px">
+          <span style="position:absolute;left:13px;top:50%;transform:translateY(-50%);font-size:1.1em">🔍</span>
+          <input type="text" id="docenteInput"
+                 placeholder="Escribe tu área: Matemáticas, Física, Inglés..."
+                 oninput="filtrarAreas()"
+                 autocomplete="off"
+                 style="width:100%;padding:12px 12px 12px 42px;border:2px solid #C8E6C9;
+                        border-radius:10px;font-size:14px;outline:none"
+                 onfocus="this.style.borderColor='#2E7D32';this.style.boxShadow='0 0 0 3px rgba(46,125,50,.12)'"
+                 onblur="this.style.borderColor='#C8E6C9';this.style.boxShadow='none'">
+        </div>
+
+        <div id="docenteResultados"></div>
+
+        <div style="text-align:center;margin-top:14px">
+          <span onclick="cerrarModalAnalisis()" style="font-size:13px;color:#95a5a6;cursor:pointer">
+            Cerrar
+          </span>
         </div>
       </div>
-      <div style="position:relative;margin-bottom:14px">
-        <span style="position:absolute;left:15px;top:50%;transform:translateY(-50%);font-size:1.2em">🔍</span>
-        <input type="text" id="docenteInput"
-               placeholder="Ej: Matemáticas, Física, Inglés, Sociales..."
-               oninput="filtrarAreas()"
-               autocomplete="off"
-               style="width:100%;padding:14px 14px 14px 46px;border:2px solid #C8E6C9;
-                      border-radius:10px;font-size:15px;outline:none;transition:border-color .2s"
-               onfocus="this.style.borderColor='#2E7D32';this.style.boxShadow='0 0 0 3px rgba(46,125,50,.12)'"
-               onblur="this.style.borderColor='#C8E6C9';this.style.boxShadow='none'">
-      </div>
-      <div id="docenteResultados"></div>
     </div>
 
     <!-- SECCIÓN NOTAS FINALES -->
@@ -692,15 +717,8 @@ function seleccionarSimulacro(n) {
     document.getElementById('results').innerHTML = '';
     document.getElementById('errorMessage').classList.remove('show');
 
-    // Sección docentes: solo en Sim 3
-    const docSec = document.getElementById('docentesSection');
-    if (n === 3) {
-        docSec.style.display = 'block';
-        document.getElementById('docenteInput').value = '';
-        filtrarAreas();
-    } else {
-        docSec.style.display = 'none';
-    }
+    // Botón análisis docentes: solo en Sim 3
+    document.getElementById('btnAnalisisDocentes').style.display = n === 3 ? 'inline-block' : 'none';
 
     // Precargar datos si es necesario
     if (n === 2 && !datosSim2) cargarSim2();
@@ -1204,6 +1222,20 @@ document.getElementById('notaSearchInput').addEventListener('keypress', e => {
 // Cerrar modal con click fuera
 document.getElementById('modalClave').addEventListener('click', function(e) {
     if (e.target === this) cerrarModal();
+});
+
+// ── MODAL ANÁLISIS DOCENTES ──────────────────────────────────────────────────
+function abrirModalAnalisis() {
+    document.getElementById('modalAnalisis').classList.add('show');
+    document.getElementById('docenteInput').value = '';
+    filtrarAreas();
+    setTimeout(() => document.getElementById('docenteInput').focus(), 200);
+}
+function cerrarModalAnalisis() {
+    document.getElementById('modalAnalisis').classList.remove('show');
+}
+document.getElementById('modalAnalisis').addEventListener('click', function(e) {
+    if (e.target === this) cerrarModalAnalisis();
 });
 
 // ── ÁREAS TERCER SIMULACRO ───────────────────────────────────────────────────
