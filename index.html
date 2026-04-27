@@ -533,6 +533,31 @@
 
     <div class="results" id="results"></div>
 
+    <!-- ── SECCIÓN DOCENTES TERCER SIMULACRO ── -->
+    <div id="docentesSection" style="display:none;margin-top:28px;animation:fadeIn .4s ease-out">
+      <div style="display:flex;align-items:center;gap:10px;margin-bottom:14px;
+           padding:14px 18px;background:linear-gradient(135deg,#1B5E20,#2E7D32);
+           border-radius:14px;color:white">
+        <div style="font-size:1.8em">📊</div>
+        <div>
+          <div style="font-weight:700;font-size:1.05em">Análisis por Área — Docentes</div>
+          <div style="font-size:.82em;opacity:.85">Escribe el nombre de tu área para ver y descargar el análisis</div>
+        </div>
+      </div>
+      <div style="position:relative;margin-bottom:14px">
+        <span style="position:absolute;left:15px;top:50%;transform:translateY(-50%);font-size:1.2em">🔍</span>
+        <input type="text" id="docenteInput"
+               placeholder="Ej: Matemáticas, Física, Inglés, Sociales..."
+               oninput="filtrarAreas()"
+               autocomplete="off"
+               style="width:100%;padding:14px 14px 14px 46px;border:2px solid #C8E6C9;
+                      border-radius:10px;font-size:15px;outline:none;transition:border-color .2s"
+               onfocus="this.style.borderColor='#2E7D32';this.style.boxShadow='0 0 0 3px rgba(46,125,50,.12)'"
+               onblur="this.style.borderColor='#C8E6C9';this.style.boxShadow='none'">
+      </div>
+      <div id="docenteResultados"></div>
+    </div>
+
     <!-- SECCIÓN NOTAS FINALES -->
     <div id="notasSection">
         <div class="info-box sim3" style="margin-bottom:18px">
@@ -666,6 +691,16 @@ function seleccionarSimulacro(n) {
     document.getElementById('results').classList.remove('show');
     document.getElementById('results').innerHTML = '';
     document.getElementById('errorMessage').classList.remove('show');
+
+    // Sección docentes: solo en Sim 3
+    const docSec = document.getElementById('docentesSection');
+    if (n === 3) {
+        docSec.style.display = 'block';
+        document.getElementById('docenteInput').value = '';
+        filtrarAreas();
+    } else {
+        docSec.style.display = 'none';
+    }
 
     // Precargar datos si es necesario
     if (n === 2 && !datosSim2) cargarSim2();
@@ -1170,6 +1205,95 @@ document.getElementById('notaSearchInput').addEventListener('keypress', e => {
 document.getElementById('modalClave').addEventListener('click', function(e) {
     if (e.target === this) cerrarModal();
 });
+
+// ── ÁREAS TERCER SIMULACRO ───────────────────────────────────────────────────
+const AREAS_SIM3 = [
+    { nombre: 'Matemáticas', icon: '📐', color: '#1565C0', bg: '#E3F2FD',
+      file: 'analisis_matematicas.html', desc: '20 preguntas · P57–P76',
+      prom: '46.6%', ds: '±18.9%', sinRef: 45, conRef: 127,
+      tags: ['matematica','matematicas','mat','algebra','calculo','numeros'] },
+    { nombre: 'Lectura Crítica', icon: '📚', color: '#6A1B9A', bg: '#EDE7F6',
+      file: 'analisis_lectura_critica.html', desc: '22 preguntas · P97–P118',
+      prom: '83.9%', ds: '±11.4%', sinRef: 163, conRef: 9,
+      tags: ['lectura','critica','lc','comprension','textos','lectura critica'] },
+    { nombre: 'Filosofía', icon: '🏛️', color: '#37474F', bg: '#ECEFF1',
+      file: 'analisis_filosofia.html', desc: '10 preguntas · P119–P128',
+      prom: '81.6%', ds: '±20.1%', sinRef: 153, conRef: 19,
+      tags: ['filosofia','filo','filosofi'] },
+    { nombre: 'Química y Biología', icon: '🧪', color: '#1B5E20', bg: '#E8F5E9',
+      file: 'analisis_quimica.html', desc: '21 preguntas · P1–P11, P17–P24, P30–P31',
+      prom: '54.7%', ds: '±12.9%', sinRef: 57, conRef: 115,
+      tags: ['quimica','biologia','bio','cn','ciencias','naturales','quim'] },
+    { nombre: 'Física', icon: '⚡', color: '#4A148C', bg: '#EDE7F6',
+      file: 'analisis_fisica.html', desc: '10 preguntas · P12–P16, P25–P29',
+      prom: '74.2%', ds: '±18.1%', sinRef: 144, conRef: 28,
+      tags: ['fisica','fis','fisic'] },
+    { nombre: 'Inglés', icon: '🌍', color: '#00695C', bg: '#E0F2F1',
+      file: 'analisis_ingles.html', desc: '25 preguntas · P32–P56',
+      prom: '48.7%', ds: '±14.1%', sinRef: 34, conRef: 138,
+      tags: ['ingles','english','idioma','idiomas','ing'] },
+    { nombre: 'Ciencias Sociales', icon: '🌎', color: '#B71C1C', bg: '#FFEBEE',
+      file: 'analisis_sociales.html', desc: '20 preguntas · P77–P96',
+      prom: '81.7%', ds: '±12.8%', sinRef: 167, conRef: 5,
+      tags: ['sociales','cs','historia','geografia','social','civica'] },
+];
+
+function normBusq(s) {
+    return s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g,'').trim();
+}
+
+function filtrarAreas() {
+    const q = normBusq(document.getElementById('docenteInput').value);
+    const div = document.getElementById('docenteResultados');
+
+    const matches = q.length === 0
+        ? AREAS_SIM3
+        : AREAS_SIM3.filter(a => {
+            const haystack = normBusq(a.nombre) + ' ' + a.tags.join(' ');
+            return haystack.includes(q);
+        });
+
+    if (matches.length === 0) {
+        div.innerHTML = `<div style="text-align:center;padding:20px;color:#888;font-size:.9em">
+            No se encontró un área con ese nombre. Intenta con: Matemáticas, Física, Inglés, Sociales, Lectura, Filosofía, Química.
+        </div>`;
+        return;
+    }
+
+    div.innerHTML = matches.map(a => `
+<div style="border:2px solid ${a.bg};border-left:5px solid ${a.color};border-radius:12px;
+     padding:16px;margin-bottom:10px;background:white;transition:box-shadow .2s"
+     onmouseover="this.style.boxShadow='0 4px 16px rgba(0,0,0,.1)'"
+     onmouseout="this.style.boxShadow='none'">
+  <div style="display:flex;align-items:center;gap:12px">
+    <div style="font-size:2em;flex-shrink:0">${a.icon}</div>
+    <div style="flex:1;min-width:0">
+      <div style="font-weight:700;font-size:1.05em;color:${a.color}">${a.nombre}</div>
+      <div style="font-size:.8em;color:#777;margin-bottom:6px">${a.desc}</div>
+      <div style="display:flex;gap:14px;flex-wrap:wrap;font-size:.8em;color:#555">
+        <span>📊 Prom: <b style="color:${a.color}">${a.prom}</b></span>
+        <span>📉 DS: <b>${a.ds}</b></span>
+        <span style="color:#27ae60">✔ Sin refuerzo: <b>${a.sinRef}</b></span>
+        <span style="color:#e74c3c">⚠ Con refuerzo: <b>${a.conRef}</b></span>
+      </div>
+    </div>
+    <div style="display:flex;flex-direction:column;gap:7px;flex-shrink:0">
+      <a href="${a.file}" target="_blank"
+         style="background:${a.color};color:white;padding:8px 14px;border-radius:8px;
+                font-size:.82em;font-weight:700;text-decoration:none;text-align:center;
+                white-space:nowrap;display:block">
+        👁 Ver
+      </a>
+      <a href="${a.file}" download="Analisis_${a.nombre.replace(/ /g,'_')}_Sim3.html"
+         style="background:white;color:${a.color};border:2px solid ${a.color};
+                padding:7px 14px;border-radius:8px;font-size:.82em;font-weight:700;
+                text-decoration:none;text-align:center;white-space:nowrap;display:block">
+        ⬇ Descargar
+      </a>
+    </div>
+  </div>
+</div>`).join('');
+}
 </script>
 </body>
 </html>
